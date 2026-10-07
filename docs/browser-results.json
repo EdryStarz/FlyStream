@@ -1,0 +1,60 @@
+{
+  "at": "2026-09-19T12:51:29.520Z",
+  "errors": [],
+  "layout": {
+    "width": 1440,
+    "scroll": 1440,
+    "perf": "0 fps1.4 ms compute"
+  },
+  "mobile": {
+    "width": 390,
+    "scroll": 390
+  },
+  "sourceFramesChange": true,
+  "retinaFramesChange": true,
+  "pauseFreezesBoth": true,
+  "response1": "0.181",
+  "response2": "0.179",
+  "localVideoDecoded": true,
+  "captureFixture": {
+    "denied": true,
+    "success": true,
+    "ended": true,
+    "captured1": "f740e86ac44c9a8ab0b3606b9bb3e9935db75df6c7d27adcfbd3068bfd33a092",
+    "captured2": "f740e86ac44c9a8ab0b3606b9bb3e9935db75df6c7d27adcfbd3068bfd33a092"
+  },
+  "realPicker": "Not automated; explicit user browser choice required",
+  "staticMetrics": "0.000",
+  "memory": [
+    {
+      "heap": 55132439,
+      "performance": "27 fps4.0 ms compute",
+      "canvases": 4
+    },
+    {
+      "heap": 62391918,
+      "performance": "26 fps4.5 ms compute",
+      "canvases": 4
+    },
+    {
+      "heap": 74422177,
+      "performance": "27 fps3.9 ms compute",
+      "canvases": 4
+    },
+    {
+      "heap": 35950855,
+      "performance": "26 fps4.4 ms compute",
+      "canvases": 4
+    },
+    {
+      "heap": 32280557,
+      "performance": "26 fps4.5 ms compute",
+      "canvases": 4
+    },
+    {
+      "heap": 39644717,
+      "performance": "25 fps4.5 ms compute",
+      "canvases": 4
+    }
+  ]
+}

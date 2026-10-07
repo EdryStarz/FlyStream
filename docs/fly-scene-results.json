@@ -1,0 +1,85 @@
+{
+  "at": "2026-09-19T13:41:51.120Z",
+  "passed": true,
+  "sourceTextureMoves": true,
+  "pauseFreezesTexture": true,
+  "keyboardOrbit": true,
+  "localVideoTexture": true,
+  "sharedFixtureTexture": true,
+  "captureEndClearsTexture": true,
+  "responsive": [
+    {
+      "width": 390,
+      "scroll": 390,
+      "buttons": [
+        {
+          "name": "Share Kick tab",
+          "h": 44,
+          "w": 129.125
+        },
+        {
+          "name": "Whole desk",
+          "h": 44,
+          "w": 82.640625
+        },
+        {
+          "name": "Fly close-up",
+          "h": 44,
+          "w": 85.8125
+        },
+        {
+          "name": "Screen view",
+          "h": 44,
+          "w": 84.828125
+        },
+        {
+          "name": "Reset fly scene camera",
+          "h": 44,
+          "w": 44
+        },
+        {
+          "name": "Expand fly scene",
+          "h": 44,
+          "w": 44
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "scroll": 320,
+      "buttons": [
+        {
+          "name": "Share Kick tab",
+          "h": 44,
+          "w": 129.125
+        },
+        {
+          "name": "Whole desk",
+          "h": 44,
+          "w": 82.640625
+        },
+        {
+          "name": "Fly close-up",
+          "h": 44,
+          "w": 85.8125
+        },
+        {
+          "name": "Screen view",
+          "h": 44,
+          "w": 84.828125
+        },
+        {
+          "name": "Reset fly scene camera",
+          "h": 44,
+          "w": 44
+        },
+        {
+          "name": "Expand fly scene",
+          "h": 44,
+          "w": 44
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

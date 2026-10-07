@@ -1,0 +1,13 @@
+{
+  "date": "2026-09-19T12:53:50.651Z",
+  "passed": true,
+  "findings": {
+    "pausedSampleSeek": "synchronized; baseline/trace reset",
+    "pausedParameters": "updated immediately",
+    "structuralClassification": "SOURCE without overlay; SOURCE + INFERRED with overlay",
+    "motionLabels": "four accessible direction names",
+    "pausedVideoSeek": "synchronized; numerical baseline reset",
+    "evidenceFocus": "dialog contains Tab / Shift+Tab, background inert, Escape restores focus",
+    "mobile": "390 / 320 px without overflow; visible buttons >=44px"
+  }
+}

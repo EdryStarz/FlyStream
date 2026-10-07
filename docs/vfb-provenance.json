@@ -1,0 +1,1672 @@
+{
+  "retrievedAt": "2026-09-16",
+  "provider": "Virtual Fly Brain",
+  "mcpEndpoint": "https://vfb3-mcp.virtualflybrain.org",
+  "mcpServerVersion": "1.11.2",
+  "template": {
+    "id": "VFB_00101567",
+    "name": "JRC2018Unisex",
+    "orientation": "LPS"
+  },
+  "dataset": {
+    "id": "Nern2024",
+    "name": "JRC_Optic-Lobe v1.0.1",
+    "vfbLabel": "Optic Lobe connectome neurons from optic_lobe:v1.0.1, Nern et al., 2024",
+    "publication": "https://doi.org/10.1038/s41586-025-08746-0"
+  },
+  "neurons": [
+    {
+      "id": "VFB_00103s4o",
+      "name": "HSE_R (JRC_OpticLobe:10016)",
+      "types": "[equatorial giant horizontal cell HSE](FBbt_00003919)",
+      "properties": "[is part of](BFO_0000050): [male organism](FBbt_00007004)",
+      "comment": "status-Traced, status label-Roughly traced, Optic Lobe classification: type-HSE",
+      "asset": "VFB_00103s4o.swc",
+      "assetFormat": "swc",
+      "assetUrl": "https://www.virtualflybrain.org/data/VFB/i/0010/3s4o/VFB_00101567/volume.swc",
+      "assetSha256": "6c9b543d81f0cd2916fe7a653d49c398320d049cd238102371c68fd373434213",
+      "templateId": "VFB_00101567",
+      "license": {
+        "0": {
+          "iri": "http://virtualflybrain.org/reports/VFBlicense_CC_BY_4_0",
+          "short_form": "VFBlicense_CC_BY_4_0",
+          "label": "CC-BY_4.0",
+          "icon": "http://mirrors.creativecommons.org/presskit/buttons/88x31/png/by.png",
+          "source": "Optic Lobe connectome neurons from optic_lobe:v1.0.1, Nern et al., 2024",
+          "source_iri": "http://virtualflybrain.org/data/Nern2024"
+        }
+      },
+      "vfbUrl": "https://v2.virtualflybrain.org/org.geppetto.frontend/geppetto?id=VFB_00103s4o&i=VFB_00101567,VFB_00103s4o",
+      "pointCount": 11071,
+      "bounds": {
+        "min": [
+          73.50401221569297,
+          137.16336420683373,
+          118.74485718983559
+        ],
+        "max": [
+          268.01460172499077,
+          223.05361289317827,
+          164.2533345638438
+        ]
+      },
+      "xrefs": [
+        {
+          "label": "neuronbridge",
+          "accession": "10016",
+          "link": "https://neuronbridge.janelia.org/search?q=10016",
+          "icon": "http://www.virtualflybrain.org/data/VFB/logos/neuronbridge.png"
+        },
+        {
+          "label": "Neuprint web interface - JRC_Optic-Lobe:v1.0.1",
+          "accession": "10016",
+          "link": "https://neuprint.janelia.org/results?dataset=optic-lobe%3Av1.0.1&qt=findneurons&q=1&qr%5B0%5D%5Bcode%5D=fn&qr%5B0%5D%5Bds%5D=optic-lobe%3Av1.0.1&qr%5B0%5D%5Bpm%5D%5Bdataset%5D=optic-lobe%3Av1.0.1&qr%5B0%5D%5Bpm%5D%5BinputMatchAny%5D=false&qr%5B0%5D%5Bpm%5D%5BoutputMatchAny%5D=false&qr%5B0%5D%5Bpm%5D%5Ball_segments%5D=false&qr%5B0%5D%5Bpm%5D%5Benable_contains%5D=true&qr%5B0%5D%5Bpm%5D%5Bneuron_id%5D=10016",
+          "icon": "http://www.virtualflybrain.org/data/VFB/logos/neuprintexplorerw.png"
+        }
+      ]
+    },
+    {
+      "id": "VFB_00103skn",
+      "name": "L1_R (JRC_OpticLobe:33449)",
+      "types": "[lamina monopolar neuron L1](FBbt_00003719)",
+      "properties": "85% [capable of](RO_0002215): [glutamate secretion, neurotransmission](GO_0061535) ([FlyBase:FBrf0262545](http://flybase.org/reports/FBrf0262545)); [is part of](BFO_0000050): [male organism](FBbt_00007004)",
+      "comment": "status-Traced, status label-Roughly traced, Optic Lobe classification: type-L1",
+      "asset": "VFB_00103skn.swc",
+      "assetFormat": "swc",
+      "assetUrl": "https://www.virtualflybrain.org/data/VFB/i/0010/3skn/VFB_00101567/volume.swc",
+      "assetSha256": "03f62e5248993f1229eff59c00df24f9881f130fd3312e60e7776ec9b807c3fc",
+      "templateId": "VFB_00101567",
+      "license": {
+        "0": {
+          "iri": "http://virtualflybrain.org/reports/VFBlicense_CC_BY_4_0",
+          "short_form": "VFBlicense_CC_BY_4_0",
+          "label": "CC-BY_4.0",
+          "icon": "http://mirrors.creativecommons.org/presskit/buttons/88x31/png/by.png",
+          "source": "Optic Lobe connectome neurons from optic_lobe:v1.0.1, Nern et al., 2024",
+          "source_iri": "http://virtualflybrain.org/data/Nern2024"
+        }
+      },
+      "vfbUrl": "https://v2.virtualflybrain.org/org.geppetto.frontend/geppetto?id=VFB_00103skn&i=VFB_00101567,VFB_00103skn",
+      "pointCount": 140,
+      "bounds": {
+        "min": [
+          23.952200730099072,
+          147.12475131636089,
+          65.17433568798828
+        ],
+        "max": [
+          73.90716882205997,
+          169.41687358385815,
+          139.09586981719522
+        ]
+      },
+      "xrefs": [
+        {
+          "label": "neuronbridge",
+          "accession": "33449",
+          "link": "https://neuronbridge.janelia.org/search?q=33449",
+          "icon": "http://www.virtualflybrain.org/data/VFB/logos/neuronbridge.png"
+        },
+        {
+          "label": "Neuprint web interface - JRC_Optic-Lobe:v1.0.1",
+          "accession": "33449",
+          "link": "https://neuprint.janelia.org/results?dataset=optic-lobe%3Av1.0.1&qt=findneurons&q=1&qr%5B0%5D%5Bcode%5D=fn&qr%5B0%5D%5Bds%5D=optic-lobe%3Av1.0.1&qr%5B0%5D%5Bpm%5D%5Bdataset%5D=optic-lobe%3Av1.0.1&qr%5B0%5D%5Bpm%5D%5BinputMatchAny%5D=false&qr%5B0%5D%5Bpm%5D%5BoutputMatchAny%5D=false&qr%5B0%5D%5Bpm%5D%5Ball_segments%5D=false&qr%5B0%5D%5Bpm%5D%5Benable_contains%5D=true&qr%5B0%5D%5Bpm%5D%5Bneuron_id%5D=33449",
+          "icon": "http://www.virtualflybrain.org/data/VFB/logos/neuprintexplorerw.png"
+        }
+      ],
+      "connectivity": {
+        "count": 13,
+        "countStatus": "exact",
+        "upstream": [
+          {
+            "id": "VFB_00103v9o",
+            "label": "[L5_R (JRC_OpticLobe:265208)](VFB_00103v9o)",
+            "type": "[lamina monopolar neuron L5](FBbt_00003725)",
+            "outputs": 75,
+            "inputs": 33,
+            "template": "[JRC2018U](VFB_00101567)",
+            "technique": "focused ion beam scanning electron microscopy",
+            "tags": "Nervous_system|Visual_system|Adult|Cholinergic"
+          },
+          {
+            "id": "VFB_00103mj8",
+            "label": "[C2_R (JRC_OpticLobe:81826)](VFB_00103mj8)",
+            "type": "[centrifugal neuron C2](FBbt_00003743)",
+            "outputs": 20,
+            "inputs": 18,
+            "template": "[JRC2018U](VFB_00101567)",
+            "technique": "focused ion beam scanning electron microscopy",
+            "tags": "Nervous_system|Adult|GABAergic|Visual_system"
+          },
+          {
+            "id": "VFB_0010411j",
+            "label": "[Mi1_R (JRC_OpticLobe:35551)](VFB_0010411j)",
+            "type": "[medulla intrinsic neuron Mi1](FBbt_00003776)",
+            "outputs": 90,
+            "inputs": 18,
+            "template": "[JRC2018U](VFB_00101567)",
+            "technique": "focused ion beam scanning electron microscopy",
+            "tags": "secondary_neuron|Nervous_system|Adult|Visual_system|Cholinergic"
+          },
+          {
+            "id": "VFB_00104k1o",
+            "label": "[Tm3_R (JRC_OpticLobe:112820)](VFB_00104k1o)",
+            "type": "[transmedullary neuron Tm3](FBbt_00003791)",
+            "outputs": 54,
+            "inputs": 7,
+            "template": "[JRC2018U](VFB_00101567)",
+            "technique": "focused ion beam scanning electron microscopy",
+            "tags": "secondary_neuron|Nervous_system|GABAergic|Adult|Visual_system|Cholinergic"
+          },
+          {
+            "id": "VFB_00104k4i",
+            "label": "[Tm3_R (JRC_OpticLobe:72592)](VFB_00104k4i)",
+            "type": "[transmedullary neuron Tm3](FBbt_00003791)",
+            "outputs": 26,
+            "inputs": 5,
+            "template": "[JRC2018U](VFB_00101567)",
+            "technique": "focused ion beam scanning electron microscopy",
+            "tags": "secondary_neuron|Nervous_system|Visual_system|Adult|GABAergic|Cholinergic"
+          },
+          {
+            "id": "VFB_00103uyq",
+            "label": "[L5_R (JRC_OpticLobe:169565)](VFB_00103uyq)",
+            "type": "[lamina monopolar neuron L5](FBbt_00003725)",
+            "outputs": 0,
+            "inputs": 2,
+            "template": "[JRC2018U](VFB_00101567)",
+            "technique": "focused ion beam scanning electron microscopy",
+            "tags": "Nervous_system|Adult|Visual_system|Cholinergic"
+          },
+          {
+            "id": "VFB_00104jis",
+            "label": "[Tm3_R (JRC_OpticLobe:76290)](VFB_00104jis)",
+            "type": "[transmedullary neuron Tm3](FBbt_00003791)",
+            "outputs": 15,
+            "inputs": 2,
+            "template": "[JRC2018U](VFB_00101567)",
+            "technique": "focused ion beam scanning electron microscopy",
+            "tags": "secondary_neuron|Nervous_system|Visual_system|Adult|GABAergic|Cholinergic"
+          },
+          {
+            "id": "VFB_00104k1v",
+            "label": "[Tm3_R (JRC_OpticLobe:84599)](VFB_00104k1v)",
+            "type": "[transmedullary neuron Tm3](FBbt_00003791)",
+            "outputs": 9,
+            "inputs": 2,
+            "template": "[JRC2018U](VFB_00101567)",
+            "technique": "focused ion beam scanning electron microscopy",
+            "tags": "secondary_neuron|Nervous_system|GABAergic|Adult|Visual_system|Cholinergic"
+          }
+        ],
+        "downstream": [
+          {
+            "id": "VFB_0010411j",
+            "label": "[Mi1_R (JRC_OpticLobe:35551)](VFB_0010411j)",
+            "type": "[medulla intrinsic neuron Mi1](FBbt_00003776)",
+            "outputs": 90,
+            "inputs": 18,
+            "template": "[JRC2018U](VFB_00101567)",
+            "technique": "focused ion beam scanning electron microscopy",
+            "tags": "secondary_neuron|Nervous_system|Adult|Visual_system|Cholinergic"
+          },
+          {
+            "id": "VFB_00103v9o",
+            "label": "[L5_R (JRC_OpticLobe:265208)](VFB_00103v9o)",
+            "type": "[lamina monopolar neuron L5](FBbt_00003725)",
+            "outputs": 75,
+            "inputs": 33,
+            "template": "[JRC2018U](VFB_00101567)",
+            "technique": "focused ion beam scanning electron microscopy",
+            "tags": "Nervous_system|Visual_system|Adult|Cholinergic"
+          },
+          {
+            "id": "VFB_00104k1o",
+            "label": "[Tm3_R (JRC_OpticLobe:112820)](VFB_00104k1o)",
+            "type": "[transmedullary neuron Tm3](FBbt_00003791)",
+            "outputs": 54,
+            "inputs": 7,
+            "template": "[JRC2018U](VFB_00101567)",
+            "technique": "focused ion beam scanning electron microscopy",
+            "tags": "secondary_neuron|Nervous_system|GABAergic|Adult|Visual_system|Cholinergic"
+          },
+          {
+            "id": "VFB_00103nbn",
+            "label": "[C3_R (JRC_OpticLobe:60978)](VFB_00103nbn)",
+            "type": "[centrifugal neuron C3](FBbt_00003744)",
+            "outputs": 47,
+            "inputs": 0,
+            "template": "[JRC2018U](VFB_00101567)",
+            "technique": "focused ion beam scanning electron microscopy",
+            "tags": "Nervous_system|Visual_system|Adult|GABAergic"
+          },
+          {
+            "id": "VFB_00104jxs",
+            "label": "[Tm3_R (JRC_OpticLobe:130126)](VFB_00104jxs)",
+            "type": "[transmedullary neuron Tm3](FBbt_00003791)",
+            "outputs": 26,
+            "inputs": 0,
+            "template": "[JRC2018U](VFB_00101567)",
+            "technique": "focused ion beam scanning electron microscopy",
+            "tags": "secondary_neuron|Nervous_system|Visual_system|GABAergic|Adult|Cholinergic"
+          },
+          {
+            "id": "VFB_00104k4i",
+            "label": "[Tm3_R (JRC_OpticLobe:72592)](VFB_00104k4i)",
+            "type": "[transmedullary neuron Tm3](FBbt_00003791)",
+            "outputs": 26,
+            "inputs": 5,
+            "template": "[JRC2018U](VFB_00101567)",
+            "technique": "focused ion beam scanning electron microscopy",
+            "tags": "secondary_neuron|Nervous_system|Visual_system|Adult|GABAergic|Cholinergic"
+          },
+          {
+            "id": "VFB_00103mj8",
+            "label": "[C2_R (JRC_OpticLobe:81826)](VFB_00103mj8)",
+            "type": "[centrifugal neuron C2](FBbt_00003743)",
+            "outputs": 20,
+            "inputs": 18,
+            "template": "[JRC2018U](VFB_00101567)",
+            "technique": "focused ion beam scanning electron microscopy",
+            "tags": "Nervous_system|Adult|GABAergic|Visual_system"
+          },
+          {
+            "id": "VFB_00104jis",
+            "label": "[Tm3_R (JRC_OpticLobe:76290)](VFB_00104jis)",
+            "type": "[transmedullary neuron Tm3](FBbt_00003791)",
+            "outputs": 15,
+            "inputs": 2,
+            "template": "[JRC2018U](VFB_00101567)",
+            "technique": "focused ion beam scanning electron microscopy",
+            "tags": "secondary_neuron|Nervous_system|Visual_system|Adult|GABAergic|Cholinergic"
+          }
+        ]
+      }
+    },
+    {
+      "id": "VFB_001041bq",
+      "name": "Mi1_R (JRC_OpticLobe:39964)",
+      "types": "[medulla intrinsic neuron Mi1](FBbt_00003776)",
+      "properties": "92% [capable of](RO_0002215): [acetylcholine secretion, neurotransmission](GO_0014055) ([FlyBase:FBrf0262545](http://flybase.org/reports/FBrf0262545)); [is part of](BFO_0000050): [male organism](FBbt_00007004)",
+      "comment": "status-Traced, status label-Roughly traced, Optic Lobe classification: type-Mi1",
+      "asset": "VFB_001041bq.swc",
+      "assetFormat": "swc",
+      "assetUrl": "https://www.virtualflybrain.org/data/VFB/i/0010/41bq/VFB_00101567/volume.swc",
+      "assetSha256": "abb9899b48fcf03508164756ed19d6af9b35251c0c23384e10677020dc91b8b6",
+      "templateId": "VFB_00101567",
+      "license": {
+        "0": {
+          "iri": "http://virtualflybrain.org/reports/VFBlicense_CC_BY_4_0",
+          "short_form": "VFBlicense_CC_BY_4_0",
+          "label": "CC-BY_4.0",
+          "icon": "http://mirrors.creativecommons.org/presskit/buttons/88x31/png/by.png",
+          "source": "Optic Lobe connectome neurons from optic_lobe:v1.0.1, Nern et al., 2024",
+          "source_iri": "http://virtualflybrain.org/data/Nern2024"
+        }
+      },
+      "vfbUrl": "https://v2.virtualflybrain.org/org.geppetto.frontend/geppetto?id=VFB_001041bq&i=VFB_00101567,VFB_001041bq",
+      "pointCount": 367,
+      "bounds": {
+        "min": [
+          4.271793562589557,
+          143.26075910844668,
+          116.43495172411387
+        ],
+        "max": [
+          77.86233059510212,
+          161.04098681650746,
+          137.98077833500273
+        ]
+      },
+      "xrefs": [
+        {
+          "label": "neuronbridge",
+          "accession": "39964",
+          "link": "https://neuronbridge.janelia.org/search?q=39964",
+          "icon": "http://www.virtualflybrain.org/data/VFB/logos/neuronbridge.png"
+        },
+        {
+          "label": "Neuprint web interface - JRC_Optic-Lobe:v1.0.1",
+          "accession": "39964",
+          "link": "https://neuprint.janelia.org/results?dataset=optic-lobe%3Av1.0.1&qt=findneurons&q=1&qr%5B0%5D%5Bcode%5D=fn&qr%5B0%5D%5Bds%5D=optic-lobe%3Av1.0.1&qr%5B0%5D%5Bpm%5D%5Bdataset%5D=optic-lobe%3Av1.0.1&qr%5B0%5D%5Bpm%5D%5BinputMatchAny%5D=false&qr%5B0%5D%5Bpm%5D%5BoutputMatchAny%5D=false&qr%5B0%5D%5Bpm%5D%5Ball_segments%5D=false&qr%5B0%5D%5Bpm%5D%5Benable_contains%5D=true&qr%5B0%5D%5Bpm%5D%5Bneuron_id%5D=39964",
+          "icon": "http://www.virtualflybrain.org/data/VFB/logos/neuprintexplorerw.png"
+        }
+      ]
+    },
+    {
+      "id": "VFB_001041nl",
+      "name": "Mi1_R (JRC_OpticLobe:91308)",
+      "types": "[medulla intrinsic neuron Mi1](FBbt_00003776)",
+      "properties": "92% [capable of](RO_0002215): [acetylcholine secretion, neurotransmission](GO_0014055) ([FlyBase:FBrf0262545](http://flybase.org/reports/FBrf0262545)); [is part of](BFO_0000050): [male organism](FBbt_00007004)",
+      "comment": "status-Traced, status label-Roughly traced, Optic Lobe classification: type-Mi1",
+      "asset": "VFB_001041nl.swc",
+      "assetFormat": "swc",
+      "assetUrl": "https://www.virtualflybrain.org/data/VFB/i/0010/41nl/VFB_00101567/volume.swc",
+      "assetSha256": "e5092ed0e8bba18a8c60b46a5a2de68dcf278d925f09d013391b6a1efe56a7e9",
+      "templateId": "VFB_00101567",
+      "license": {
+        "0": {
+          "iri": "http://virtualflybrain.org/reports/VFBlicense_CC_BY_4_0",
+          "short_form": "VFBlicense_CC_BY_4_0",
+          "label": "CC-BY_4.0",
+          "icon": "http://mirrors.creativecommons.org/presskit/buttons/88x31/png/by.png",
+          "source": "Optic Lobe connectome neurons from optic_lobe:v1.0.1, Nern et al., 2024",
+          "source_iri": "http://virtualflybrain.org/data/Nern2024"
+        }
+      },
+      "vfbUrl": "https://v2.virtualflybrain.org/org.geppetto.frontend/geppetto?id=VFB_001041nl&i=VFB_00101567,VFB_001041nl",
+      "pointCount": 231,
+      "bounds": {
+        "min": [
+          152.48568353695916,
+          201.67023184110195,
+          51.661875613845226
+        ],
+        "max": [
+          174.953425575071,
+          219.69764751278078,
+          88.4096397646554
+        ]
+      },
+      "xrefs": [
+        {
+          "label": "neuronbridge",
+          "accession": "91308",
+          "link": "https://neuronbridge.janelia.org/search?q=91308",
+          "icon": "http://www.virtualflybrain.org/data/VFB/logos/neuronbridge.png"
+        },
+        {
+          "label": "Neuprint web interface - JRC_Optic-Lobe:v1.0.1",
+          "accession": "91308",
+          "link": "https://neuprint.janelia.org/results?dataset=optic-lobe%3Av1.0.1&qt=findneurons&q=1&qr%5B0%5D%5Bcode%5D=fn&qr%5B0%5D%5Bds%5D=optic-lobe%3Av1.0.1&qr%5B0%5D%5Bpm%5D%5Bdataset%5D=optic-lobe%3Av1.0.1&qr%5B0%5D%5Bpm%5D%5BinputMatchAny%5D=false&qr%5B0%5D%5Bpm%5D%5BoutputMatchAny%5D=false&qr%5B0%5D%5Bpm%5D%5Ball_segments%5D=false&qr%5B0%5D%5Bpm%5D%5Benable_contains%5D=true&qr%5B0%5D%5Bpm%5D%5Bneuron_id%5D=91308",
+          "icon": "http://www.virtualflybrain.org/data/VFB/logos/neuprintexplorerw.png"
+        }
+      ],
+      "connectivity": {
+        "count": 99,
+        "countStatus": "exact",
+        "upstream": [
+          {
+            "id": "VFB_00103stg",
+            "label": "[L1_R (JRC_OpticLobe:42891)](VFB_00103stg)",
+            "type": "[lamina monopolar neuron L1](FBbt_00003719)",
+            "outputs": 10,
+            "inputs": 49,
+            "template": "[JRC2018U](VFB_00101567)",
+            "technique": "focussed ion beam scanning electron microscopy (FIB-SEM)",
+            "tags": "Nervous_system|Glutamatergic|Visual_system|Adult"
+          },
+          {
+            "id": "VFB_00103twb",
+            "label": "[L3_R (JRC_OpticLobe:106562)](VFB_00103twb)",
+            "type": "[lamina monopolar neuron L3](FBbt_00003721)",
+            "outputs": 0,
+            "inputs": 14,
+            "template": "[JRC2018U](VFB_00101567)",
+            "technique": "focussed ion beam scanning electron microscopy (FIB-SEM)",
+            "tags": "Nervous_system|Visual_system|Adult|GABAergic"
+          },
+          {
+            "id": "VFB_00103oz9",
+            "label": "[Dm1_R (JRC_OpticLobe:27865)](VFB_00103oz9)",
+            "type": "[distal medullary amacrine neuron Dm1](FBbt_00003768)",
+            "outputs": 0,
+            "inputs": 11,
+            "template": "[JRC2018U](VFB_00101567)",
+            "technique": "focussed ion beam scanning electron microscopy (FIB-SEM)",
+            "tags": "secondary_neuron|Nervous_system|Glutamatergic|Visual_system|Adult"
+          },
+          {
+            "id": "VFB_00103v8t",
+            "label": "[L5_R (JRC_OpticLobe:194868)](VFB_00103v8t)",
+            "type": "[lamina monopolar neuron L5](FBbt_00003725)",
+            "outputs": 3,
+            "inputs": 10,
+            "template": "[JRC2018U](VFB_00101567)",
+            "technique": "focussed ion beam scanning electron microscopy (FIB-SEM)",
+            "tags": "Nervous_system|Adult|Visual_system|Cholinergic"
+          },
+          {
+            "id": "VFB_001045gd",
+            "label": "[Pm3_R (JRC_OpticLobe:22036)](VFB_001045gd)",
+            "type": "[proximal medullary amacrine neuron Pm3](FBbt_00110066)",
+            "outputs": 7,
+            "inputs": 10,
+            "template": "[JRC2018U](VFB_00101567)",
+            "technique": "focussed ion beam scanning electron microscopy (FIB-SEM)",
+            "tags": "Nervous_system|Adult|GABAergic|Visual_system"
+          },
+          {
+            "id": "VFB_001045f7",
+            "label": "[Pm2b_R (JRC_OpticLobe:28947)](VFB_001045f7)",
+            "type": "[proximal medullary amacrine neuron Pm2](FBbt_00003835); [adult GABAergic neuron](FBbt_00058207)",
+            "outputs": 27,
+            "inputs": 9,
+            "template": "[JRC2018U](VFB_00101567)",
+            "technique": "focussed ion beam scanning electron microscopy (FIB-SEM)",
+            "tags": "secondary_neuron|Nervous_system|Visual_system|Adult|GABAergic"
+          },
+          {
+            "id": "VFB_00103vaa",
+            "label": "[L5_R (JRC_OpticLobe:165893)](VFB_00103vaa)",
+            "type": "[lamina monopolar neuron L5](FBbt_00003725)",
+            "outputs": 0,
+            "inputs": 8,
+            "template": "[JRC2018U](VFB_00101567)",
+            "technique": "focussed ion beam scanning electron microscopy (FIB-SEM)",
+            "tags": "Nervous_system|Visual_system|Adult|Cholinergic"
+          },
+          {
+            "id": "VFB_001045dw",
+            "label": "[Pm2b_R (JRC_OpticLobe:28549)](VFB_001045dw)",
+            "type": "[proximal medullary amacrine neuron Pm2](FBbt_00003835); [adult GABAergic neuron](FBbt_00058207)",
+            "outputs": 16,
+            "inputs": 8,
+            "template": "[JRC2018U](VFB_00101567)",
+            "technique": "focussed ion beam scanning electron microscopy (FIB-SEM)",
+            "tags": "secondary_neuron|Nervous_system|Visual_system|Adult|GABAergic"
+          }
+        ],
+        "downstream": [
+          {
+            "id": "VFB_001045hy",
+            "label": "[Pm4_R (JRC_OpticLobe:38755)](VFB_001045hy)",
+            "type": "[proximal medullary amacrine neuron Pm4](FBbt_00111282)",
+            "outputs": 48,
+            "inputs": 5,
+            "template": "[JRC2018U](VFB_00101567)",
+            "technique": "focussed ion beam scanning electron microscopy (FIB-SEM)",
+            "tags": "secondary_neuron|Nervous_system|Adult|GABAergic|Visual_system"
+          },
+          {
+            "id": "VFB_001045d4",
+            "label": "[Pm2a_R (JRC_OpticLobe:28847)](VFB_001045d4)",
+            "type": "[proximal medullary amacrine neuron Pm2](FBbt_00003835); [adult GABAergic neuron](FBbt_00058207)",
+            "outputs": 35,
+            "inputs": 4,
+            "template": "[JRC2018U](VFB_00101567)",
+            "technique": "focussed ion beam scanning electron microscopy (FIB-SEM)",
+            "tags": "secondary_neuron|Nervous_system|Visual_system|GABAergic|Adult"
+          },
+          {
+            "id": "VFB_0010457e",
+            "label": "[Pm1_R (JRC_OpticLobe:47809)](VFB_0010457e)",
+            "type": "[proximal medullary amacrine neuron Pm1](FBbt_00003833); [adult GABAergic neuron](FBbt_00058207)",
+            "outputs": 34,
+            "inputs": 5,
+            "template": "[JRC2018U](VFB_00101567)",
+            "technique": "focussed ion beam scanning electron microscopy (FIB-SEM)",
+            "tags": "secondary_neuron|Nervous_system|Adult|Visual_system|GABAergic"
+          },
+          {
+            "id": "VFB_0010458k",
+            "label": "[Pm1_R (JRC_OpticLobe:53451)](VFB_0010458k)",
+            "type": "[adult GABAergic neuron](FBbt_00058207); [proximal medullary amacrine neuron Pm1](FBbt_00003833)",
+            "outputs": 28,
+            "inputs": 4,
+            "template": "[JRC2018U](VFB_00101567)",
+            "technique": "focussed ion beam scanning electron microscopy (FIB-SEM)",
+            "tags": "secondary_neuron|Nervous_system|Visual_system|Adult|GABAergic"
+          },
+          {
+            "id": "VFB_001045f7",
+            "label": "[Pm2b_R (JRC_OpticLobe:28947)](VFB_001045f7)",
+            "type": "[proximal medullary amacrine neuron Pm2](FBbt_00003835); [adult GABAergic neuron](FBbt_00058207)",
+            "outputs": 27,
+            "inputs": 9,
+            "template": "[JRC2018U](VFB_00101567)",
+            "technique": "focussed ion beam scanning electron microscopy (FIB-SEM)",
+            "tags": "secondary_neuron|Nervous_system|Visual_system|Adult|GABAergic"
+          },
+          {
+            "id": "VFB_0010402l",
+            "label": "[MeLo9_R (JRC_OpticLobe:33686)](VFB_0010402l)",
+            "type": "[adult medulla-lobula neuron MeLo9](FBbt_20007233)",
+            "outputs": 25,
+            "inputs": 3,
+            "template": "[JRC2018U](VFB_00101567)",
+            "technique": "focussed ion beam scanning electron microscopy (FIB-SEM)",
+            "tags": "Nervous_system|Glutamatergic|Adult|Visual_system"
+          },
+          {
+            "id": "VFB_001045de",
+            "label": "[Pm2a_R (JRC_OpticLobe:32209)](VFB_001045de)",
+            "type": "[proximal medullary amacrine neuron Pm2](FBbt_00003835); [adult GABAergic neuron](FBbt_00058207)",
+            "outputs": 21,
+            "inputs": 2,
+            "template": "[JRC2018U](VFB_00101567)",
+            "technique": "focussed ion beam scanning electron microscopy (FIB-SEM)",
+            "tags": "secondary_neuron|Nervous_system|Visual_system|GABAergic|Adult"
+          },
+          {
+            "id": "VFB_00104rxp",
+            "label": "[Y3_R (JRC_OpticLobe:39282)](VFB_00104rxp)",
+            "type": "[Y neuron Y3](FBbt_00003914); [adult cholinergic neuron](FBbt_00058205)",
+            "outputs": 21,
+            "inputs": 6,
+            "template": "[JRC2018U](VFB_00101567)",
+            "technique": "focussed ion beam scanning electron microscopy (FIB-SEM)",
+            "tags": "Nervous_system|Visual_system|Adult|Cholinergic"
+          }
+        ]
+      }
+    },
+    {
+      "id": "VFB_00104bfr",
+      "name": "T4a_R (JRC_OpticLobe:115402)",
+      "types": "[T4a neuron](FBbt_00003732)",
+      "properties": "[is part of](BFO_0000050): [male organism](FBbt_00007004)",
+      "comment": "status-Traced, status label-Roughly traced, Optic Lobe classification: type-T4a",
+      "asset": "VFB_00104bfr.swc",
+      "assetFormat": "swc",
+      "assetUrl": "https://www.virtualflybrain.org/data/VFB/i/0010/4bfr/VFB_00101567/volume.swc",
+      "assetSha256": "541501b8affb7e8e3a3debc6fa353c447d087c50913c711ccfaa6c092e371f6d",
+      "templateId": "VFB_00101567",
+      "license": {
+        "0": {
+          "iri": "http://virtualflybrain.org/reports/VFBlicense_CC_BY_4_0",
+          "short_form": "VFBlicense_CC_BY_4_0",
+          "label": "CC-BY_4.0",
+          "icon": "http://mirrors.creativecommons.org/presskit/buttons/88x31/png/by.png",
+          "source": "Optic Lobe connectome neurons from optic_lobe:v1.0.1, Nern et al., 2024",
+          "source_iri": "http://virtualflybrain.org/data/Nern2024"
+        }
+      },
+      "vfbUrl": "https://v2.virtualflybrain.org/org.geppetto.frontend/geppetto?id=VFB_00104bfr&i=VFB_00101567,VFB_00104bfr",
+      "pointCount": 407,
+      "bounds": {
+        "min": [
+          70.79884363642407,
+          149.56018008193107,
+          129.0881709982439
+        ],
+        "max": [
+          104.59526934289019,
+          169.94681656989079,
+          158.55529116458513
+        ]
+      },
+      "xrefs": [
+        {
+          "label": "Neuprint web interface - JRC_Optic-Lobe:v1.0.1",
+          "accession": "115402",
+          "link": "https://neuprint.janelia.org/results?dataset=optic-lobe%3Av1.0.1&qt=findneurons&q=1&qr%5B0%5D%5Bcode%5D=fn&qr%5B0%5D%5Bds%5D=optic-lobe%3Av1.0.1&qr%5B0%5D%5Bpm%5D%5Bdataset%5D=optic-lobe%3Av1.0.1&qr%5B0%5D%5Bpm%5D%5BinputMatchAny%5D=false&qr%5B0%5D%5Bpm%5D%5BoutputMatchAny%5D=false&qr%5B0%5D%5Bpm%5D%5Ball_segments%5D=false&qr%5B0%5D%5Bpm%5D%5Benable_contains%5D=true&qr%5B0%5D%5Bpm%5D%5Bneuron_id%5D=115402",
+          "icon": "http://www.virtualflybrain.org/data/VFB/logos/neuprintexplorerw.png"
+        },
+        {
+          "label": "neuronbridge",
+          "accession": "115402",
+          "link": "https://neuronbridge.janelia.org/search?q=115402",
+          "icon": "http://www.virtualflybrain.org/data/VFB/logos/neuronbridge.png"
+        }
+      ],
+      "connectivity": {
+        "count": 74,
+        "countStatus": "exact",
+        "upstream": [
+          {
+            "id": "VFB_001041bq",
+            "label": "[Mi1_R (JRC_OpticLobe:39964)](VFB_001041bq)",
+            "type": "[medulla intrinsic neuron Mi1](FBbt_00003776)",
+            "outputs": 0,
+            "inputs": 25,
+            "template": "[JRC2018U](VFB_00101567)",
+            "technique": "focused ion beam scanning electron microscopy",
+            "tags": "secondary_neuron|Nervous_system|Adult|Visual_system|Cholinergic"
+          },
+          {
+            "id": "VFB_00103noc",
+            "label": "[CT1_L (JRC_OpticLobe:10009)](VFB_00103noc)",
+            "type": "[tangential neuron CT1](FBbt_00048245)",
+            "outputs": 8,
+            "inputs": 18,
+            "template": "[JRC2018U](VFB_00101567)",
+            "technique": "focused ion beam scanning electron microscopy",
+            "tags": "Nervous_system|GABAergic|Adult|Visual_system"
+          },
+          {
+            "id": "VFB_00104jor",
+            "label": "[Tm3_R (JRC_OpticLobe:94380)](VFB_00104jor)",
+            "type": "[transmedullary neuron Tm3](FBbt_00003791)",
+            "outputs": 0,
+            "inputs": 12,
+            "template": "[JRC2018U](VFB_00101567)",
+            "technique": "focused ion beam scanning electron microscopy",
+            "tags": "secondary_neuron|Nervous_system|Visual_system|GABAergic|Adult|Cholinergic"
+          },
+          {
+            "id": "VFB_001041gp",
+            "label": "[Mi1_R (JRC_OpticLobe:40106)](VFB_001041gp)",
+            "type": "[medulla intrinsic neuron Mi1](FBbt_00003776)",
+            "outputs": 0,
+            "inputs": 10,
+            "template": "[JRC2018U](VFB_00101567)",
+            "technique": "focused ion beam scanning electron microscopy",
+            "tags": "secondary_neuron|Nervous_system|Visual_system|Adult|Cholinergic"
+          },
+          {
+            "id": "VFB_001041a3",
+            "label": "[Mi1_R (JRC_OpticLobe:43146)](VFB_001041a3)",
+            "type": "[medulla intrinsic neuron Mi1](FBbt_00003776)",
+            "outputs": 0,
+            "inputs": 10,
+            "template": "[JRC2018U](VFB_00101567)",
+            "technique": "focused ion beam scanning electron microscopy",
+            "tags": "secondary_neuron|Nervous_system|Adult|Visual_system|Cholinergic"
+          },
+          {
+            "id": "VFB_00103owq",
+            "label": "[DCH_L (JRC_OpticLobe:10061)](VFB_00103owq)",
+            "type": "[dorsal centrifugal horizontal neuron](FBbt_00048126)",
+            "outputs": 20,
+            "inputs": 9,
+            "template": "[JRC2018U](VFB_00101567)",
+            "technique": "focused ion beam scanning electron microscopy",
+            "tags": "Nervous_system|GABAergic|Adult|Visual_system"
+          },
+          {
+            "id": "VFB_001044wz",
+            "label": "[Mi9_R (JRC_OpticLobe:93514)](VFB_001044wz)",
+            "type": "[medulla intrinsic neuron Mi9](FBbt_00003784)",
+            "outputs": 0,
+            "inputs": 9,
+            "template": "[JRC2018U](VFB_00101567)",
+            "technique": "focused ion beam scanning electron microscopy",
+            "tags": "secondary_neuron|Nervous_system|Glutamatergic|Visual_system|Adult"
+          },
+          {
+            "id": "VFB_00103n8z",
+            "label": "[C3_R (JRC_OpticLobe:57678)](VFB_00103n8z)",
+            "type": "[centrifugal neuron C3](FBbt_00003744)",
+            "outputs": 0,
+            "inputs": 6,
+            "template": "[JRC2018U](VFB_00101567)",
+            "technique": "focused ion beam scanning electron microscopy",
+            "tags": "Nervous_system|GABAergic|Adult|Visual_system"
+          }
+        ],
+        "downstream": [
+          {
+            "id": "VFB_00103owq",
+            "label": "[DCH_L (JRC_OpticLobe:10061)](VFB_00103owq)",
+            "type": "[dorsal centrifugal horizontal neuron](FBbt_00048126)",
+            "outputs": 20,
+            "inputs": 9,
+            "template": "[JRC2018U](VFB_00101567)",
+            "technique": "focused ion beam scanning electron microscopy",
+            "tags": "Nervous_system|GABAergic|Adult|Visual_system"
+          },
+          {
+            "id": "VFB_00103y0n",
+            "label": "[LPi12_R (JRC_OpticLobe:10308)](VFB_00103y0n)",
+            "type": "[adult GABAergic neuron](FBbt_00058207); [lobula plate intrinsic neuron LPi1-2](FBbt_00052850)",
+            "outputs": 18,
+            "inputs": 0,
+            "template": "[JRC2018U](VFB_00101567)",
+            "technique": "focused ion beam scanning electron microscopy",
+            "tags": "Nervous_system|GABAergic|Adult|Visual_system"
+          },
+          {
+            "id": "VFB_00103xb0",
+            "label": "[LLPC1_R (JRC_OpticLobe:29172)](VFB_00103xb0)",
+            "type": "[lobula-lobula plate columnar neuron LLPC1](FBbt_00058227)",
+            "outputs": 14,
+            "inputs": 0,
+            "template": "[JRC2018U](VFB_00101567)",
+            "technique": "focused ion beam scanning electron microscopy",
+            "tags": "Nervous_system|Adult|Visual_system|Cholinergic"
+          },
+          {
+            "id": "VFB_00104rel",
+            "label": "[VS_R (JRC_OpticLobe:10403)](VFB_00104rel)",
+            "type": "[vertical system neuron](FBbt_00007516)",
+            "outputs": 14,
+            "inputs": 0,
+            "template": "[JRC2018U](VFB_00101567)",
+            "technique": "focused ion beam scanning electron microscopy",
+            "tags": "Nervous_system|Neuron|Visual_system|Adult"
+          },
+          {
+            "id": "VFB_00103s4o",
+            "label": "[HSE_R (JRC_OpticLobe:10016)](VFB_00103s4o)",
+            "type": "[equatorial giant horizontal cell HSE](FBbt_00003919)",
+            "outputs": 13,
+            "inputs": 0,
+            "template": "[JRC2018U](VFB_00101567)",
+            "technique": "focused ion beam scanning electron microscopy",
+            "tags": "Nervous_system|Neuron|Adult|Visual_system"
+          },
+          {
+            "id": "VFB_00103s4p",
+            "label": "[HSN_R (JRC_OpticLobe:10015)](VFB_00103s4p)",
+            "type": "[dorsal giant horizontal cell HSN](FBbt_00003918)",
+            "outputs": 13,
+            "inputs": 0,
+            "template": "[JRC2018U](VFB_00101567)",
+            "technique": "focused ion beam scanning electron microscopy",
+            "tags": "Nervous_system|Neuron|Adult|Visual_system"
+          },
+          {
+            "id": "VFB_00104rkk",
+            "label": "[Y13_R (JRC_OpticLobe:37637)](VFB_00104rkk)",
+            "type": "[Y neuron Y1](FBbt_00003912)",
+            "outputs": 12,
+            "inputs": 2,
+            "template": "[JRC2018U](VFB_00101567)",
+            "technique": "focused ion beam scanning electron microscopy",
+            "tags": "Nervous_system|Glutamatergic|Adult|Visual_system"
+          },
+          {
+            "id": "VFB_00104req",
+            "label": "[VS_R (JRC_OpticLobe:10311)](VFB_00104req)",
+            "type": "[vertical system neuron](FBbt_00007516)",
+            "outputs": 11,
+            "inputs": 0,
+            "template": "[JRC2018U](VFB_00101567)",
+            "technique": "focused ion beam scanning electron microscopy",
+            "tags": "Nervous_system|Neuron|Adult|Visual_system"
+          }
+        ]
+      }
+    },
+    {
+      "id": "VFB_00104dxc",
+      "name": "T5a_R (JRC_OpticLobe:135502)",
+      "types": "[T5a neuron](FBbt_00003737)",
+      "properties": "[is part of](BFO_0000050): [male organism](FBbt_00007004)",
+      "comment": "status-Traced, status label-Roughly traced, Optic Lobe classification: type-T5a",
+      "asset": "VFB_00104dxc.swc",
+      "assetFormat": "swc",
+      "assetUrl": "https://www.virtualflybrain.org/data/VFB/i/0010/4dxc/VFB_00101567/volume.swc",
+      "assetSha256": "30ccc0fcd4e5fc982ef93a83056fe54922e0adac576b1b34597f8e4e7d2fc781",
+      "templateId": "VFB_00101567",
+      "license": {
+        "0": {
+          "iri": "http://virtualflybrain.org/reports/VFBlicense_CC_BY_4_0",
+          "short_form": "VFBlicense_CC_BY_4_0",
+          "label": "CC-BY_4.0",
+          "icon": "http://mirrors.creativecommons.org/presskit/buttons/88x31/png/by.png",
+          "source": "Optic Lobe connectome neurons from optic_lobe:v1.0.1, Nern et al., 2024",
+          "source_iri": "http://virtualflybrain.org/data/Nern2024"
+        }
+      },
+      "vfbUrl": "https://v2.virtualflybrain.org/org.geppetto.frontend/geppetto?id=VFB_00104dxc&i=VFB_00101567,VFB_00104dxc",
+      "pointCount": 286,
+      "bounds": {
+        "min": [
+          124.70736460742735,
+          146.13597361071376,
+          154.89815106127304
+        ],
+        "max": [
+          142.510871914509,
+          164.4908063348999,
+          168.29731930692347
+        ]
+      },
+      "xrefs": [
+        {
+          "label": "Neuprint web interface - JRC_Optic-Lobe:v1.0.1",
+          "accession": "135502",
+          "link": "https://neuprint.janelia.org/results?dataset=optic-lobe%3Av1.0.1&qt=findneurons&q=1&qr%5B0%5D%5Bcode%5D=fn&qr%5B0%5D%5Bds%5D=optic-lobe%3Av1.0.1&qr%5B0%5D%5Bpm%5D%5Bdataset%5D=optic-lobe%3Av1.0.1&qr%5B0%5D%5Bpm%5D%5BinputMatchAny%5D=false&qr%5B0%5D%5Bpm%5D%5BoutputMatchAny%5D=false&qr%5B0%5D%5Bpm%5D%5Ball_segments%5D=false&qr%5B0%5D%5Bpm%5D%5Benable_contains%5D=true&qr%5B0%5D%5Bpm%5D%5Bneuron_id%5D=135502",
+          "icon": "http://www.virtualflybrain.org/data/VFB/logos/neuprintexplorerw.png"
+        },
+        {
+          "label": "neuronbridge",
+          "accession": "135502",
+          "link": "https://neuronbridge.janelia.org/search?q=135502",
+          "icon": "http://www.virtualflybrain.org/data/VFB/logos/neuronbridge.png"
+        }
+      ],
+      "connectivity": {
+        "count": 69,
+        "countStatus": "exact",
+        "upstream": [
+          {
+            "id": "VFB_00103noc",
+            "label": "[CT1_L (JRC_OpticLobe:10009)](VFB_00103noc)",
+            "type": "[tangential neuron CT1](FBbt_00048245)",
+            "outputs": 4,
+            "inputs": 36,
+            "template": "[JRC2018U](VFB_00101567)",
+            "technique": "focused ion beam scanning electron microscopy",
+            "tags": "Nervous_system|GABAergic|Adult|Visual_system"
+          },
+          {
+            "id": "VFB_00104iha",
+            "label": "[Tm2_R (JRC_OpticLobe:65363)](VFB_00104iha)",
+            "type": "[transmedullary neuron Tm2](FBbt_00003790)",
+            "outputs": 0,
+            "inputs": 21,
+            "template": "[JRC2018U](VFB_00101567)",
+            "technique": "focused ion beam scanning electron microscopy",
+            "tags": "secondary_neuron|Nervous_system|Adult|Visual_system|Cholinergic"
+          },
+          {
+            "id": "VFB_00103owq",
+            "label": "[DCH_L (JRC_OpticLobe:10061)](VFB_00103owq)",
+            "type": "[dorsal centrifugal horizontal neuron](FBbt_00048126)",
+            "outputs": 27,
+            "inputs": 10,
+            "template": "[JRC2018U](VFB_00101567)",
+            "technique": "focused ion beam scanning electron microscopy",
+            "tags": "Nervous_system|GABAergic|Adult|Visual_system"
+          },
+          {
+            "id": "VFB_00104lay",
+            "label": "[Tm4_R (JRC_OpticLobe:78996)](VFB_00104lay)",
+            "type": "[transmedullary neuron Tm4](FBbt_00003792)",
+            "outputs": 0,
+            "inputs": 10,
+            "template": "[JRC2018U](VFB_00101567)",
+            "technique": "focused ion beam scanning electron microscopy",
+            "tags": "secondary_neuron|Nervous_system|Visual_system|Adult|GABAergic|Cholinergic"
+          },
+          {
+            "id": "VFB_00104gx7",
+            "label": "[Tm1_R (JRC_OpticLobe:50298)](VFB_00104gx7)",
+            "type": "[transmedullary neuron Tm1](FBbt_00003789)",
+            "outputs": 0,
+            "inputs": 8,
+            "template": "[JRC2018U](VFB_00101567)",
+            "technique": "focused ion beam scanning electron microscopy",
+            "tags": "secondary_neuron|Nervous_system|Visual_system|Adult|Cholinergic"
+          },
+          {
+            "id": "VFB_00104htm",
+            "label": "[Tm2_R (JRC_OpticLobe:64004)](VFB_00104htm)",
+            "type": "[transmedullary neuron Tm2](FBbt_00003790)",
+            "outputs": 0,
+            "inputs": 8,
+            "template": "[JRC2018U](VFB_00101567)",
+            "technique": "focused ion beam scanning electron microscopy",
+            "tags": "secondary_neuron|Nervous_system|Adult|Visual_system|Cholinergic"
+          },
+          {
+            "id": "VFB_00104o54",
+            "label": "[Tm9_R (JRC_OpticLobe:109365)](VFB_00104o54)",
+            "type": "[transmedullary neuron Tm9](FBbt_00003797)",
+            "outputs": 0,
+            "inputs": 6,
+            "template": "[JRC2018U](VFB_00101567)",
+            "technique": "focused ion beam scanning electron microscopy",
+            "tags": "secondary_neuron|Nervous_system|Visual_system|Adult|Cholinergic"
+          },
+          {
+            "id": "VFB_00104efp",
+            "label": "[T5a_R (JRC_OpticLobe:133282)](VFB_00104efp)",
+            "type": "[T5a neuron](FBbt_00003737)",
+            "outputs": 4,
+            "inputs": 5,
+            "template": "[JRC2018U](VFB_00101567)",
+            "technique": "focused ion beam scanning electron microscopy",
+            "tags": "secondary_neuron|Nervous_system|Adult|Visual_system|Cholinergic"
+          }
+        ],
+        "downstream": [
+          {
+            "id": "VFB_00103y0n",
+            "label": "[LPi12_R (JRC_OpticLobe:10308)](VFB_00103y0n)",
+            "type": "[adult GABAergic neuron](FBbt_00058207); [lobula plate intrinsic neuron LPi1-2](FBbt_00052850)",
+            "outputs": 43,
+            "inputs": 0,
+            "template": "[JRC2018U](VFB_00101567)",
+            "technique": "focused ion beam scanning electron microscopy",
+            "tags": "Nervous_system|GABAergic|Adult|Visual_system"
+          },
+          {
+            "id": "VFB_00103owq",
+            "label": "[DCH_L (JRC_OpticLobe:10061)](VFB_00103owq)",
+            "type": "[dorsal centrifugal horizontal neuron](FBbt_00048126)",
+            "outputs": 27,
+            "inputs": 10,
+            "template": "[JRC2018U](VFB_00101567)",
+            "technique": "focused ion beam scanning electron microscopy",
+            "tags": "Nervous_system|GABAergic|Adult|Visual_system"
+          },
+          {
+            "id": "VFB_00103s4p",
+            "label": "[HSN_R (JRC_OpticLobe:10015)](VFB_00103s4p)",
+            "type": "[dorsal giant horizontal cell HSN](FBbt_00003918)",
+            "outputs": 24,
+            "inputs": 0,
+            "template": "[JRC2018U](VFB_00101567)",
+            "technique": "focused ion beam scanning electron microscopy",
+            "tags": "Nervous_system|Neuron|Adult|Visual_system"
+          },
+          {
+            "id": "VFB_00103s4o",
+            "label": "[HSE_R (JRC_OpticLobe:10016)](VFB_00103s4o)",
+            "type": "[equatorial giant horizontal cell HSE](FBbt_00003919)",
+            "outputs": 21,
+            "inputs": 0,
+            "template": "[JRC2018U](VFB_00101567)",
+            "technique": "focused ion beam scanning electron microscopy",
+            "tags": "Nervous_system|Neuron|Adult|Visual_system"
+          },
+          {
+            "id": "VFB_00103xzz",
+            "label": "[LPT26_R (JRC_OpticLobe:11696)](VFB_00103xzz)",
+            "type": "[adult lobula plate tangential neuron LPT26](FBbt_00053423)",
+            "outputs": 15,
+            "inputs": 0,
+            "template": "[JRC2018U](VFB_00101567)",
+            "technique": "focused ion beam scanning electron microscopy",
+            "tags": "Nervous_system|Adult|Visual_system|Cholinergic"
+          },
+          {
+            "id": "VFB_00104pq4",
+            "label": "[TmY20_R (JRC_OpticLobe:78425)](VFB_00104pq4)",
+            "type": "[transmedullary Y neuron TmY20](FBbt_00052860); [adult cholinergic neuron](FBbt_00058205)",
+            "outputs": 14,
+            "inputs": 0,
+            "template": "[JRC2018U](VFB_00101567)",
+            "technique": "focused ion beam scanning electron microscopy",
+            "tags": "Nervous_system|Visual_system|Adult|Cholinergic"
+          },
+          {
+            "id": "VFB_00103xsu",
+            "label": "[LPLC2_R (JRC_OpticLobe:31964)](VFB_00103xsu)",
+            "type": "[lobula plate-lobula columnar neuron LPLC2](FBbt_00111763)",
+            "outputs": 10,
+            "inputs": 0,
+            "template": "[JRC2018U](VFB_00101567)",
+            "technique": "focused ion beam scanning electron microscopy",
+            "tags": "Nervous_system|Visual_system|Adult|Cholinergic"
+          },
+          {
+            "id": "VFB_00104rl9",
+            "label": "[Y13_R (JRC_OpticLobe:60899)](VFB_00104rl9)",
+            "type": "[Y neuron Y1](FBbt_00003912)",
+            "outputs": 10,
+            "inputs": 0,
+            "template": "[JRC2018U](VFB_00101567)",
+            "technique": "focused ion beam scanning electron microscopy",
+            "tags": "Nervous_system|Glutamatergic|Adult|Visual_system"
+          }
+        ]
+      }
+    },
+    {
+      "id": "VFB_00104iha",
+      "name": "Tm2_R (JRC_OpticLobe:65363)",
+      "types": "[transmedullary neuron Tm2](FBbt_00003790)",
+      "properties": "89% [capable of](RO_0002215): [acetylcholine secretion, neurotransmission](GO_0014055) ([FlyBase:FBrf0262545](http://flybase.org/reports/FBrf0262545)); [is part of](BFO_0000050): [male organism](FBbt_00007004)",
+      "comment": "status-Traced, status label-Roughly traced, Optic Lobe classification: type-Tm2",
+      "asset": "VFB_00104iha.swc",
+      "assetFormat": "swc",
+      "assetUrl": "https://www.virtualflybrain.org/data/VFB/i/0010/4iha/VFB_00101567/volume.swc",
+      "assetSha256": "b4592d0e8b78d3de95f150b0c44885db11d4e652bfad9f56cbf7515a3332bb3f",
+      "templateId": "VFB_00101567",
+      "license": {
+        "0": {
+          "iri": "http://virtualflybrain.org/reports/VFBlicense_CC_BY_4_0",
+          "short_form": "VFBlicense_CC_BY_4_0",
+          "label": "CC-BY_4.0",
+          "icon": "http://mirrors.creativecommons.org/presskit/buttons/88x31/png/by.png",
+          "source": "Optic Lobe connectome neurons from optic_lobe:v1.0.1, Nern et al., 2024",
+          "source_iri": "http://virtualflybrain.org/data/Nern2024"
+        }
+      },
+      "vfbUrl": "https://v2.virtualflybrain.org/org.geppetto.frontend/geppetto?id=VFB_00104iha&i=VFB_00101567,VFB_00104iha",
+      "pointCount": 421,
+      "bounds": {
+        "min": [
+          88.9204779615588,
+          82.96661308825894,
+          92.70656990800032
+        ],
+        "max": [
+          140.0609468200698,
+          152.41260229934284,
+          158.9901790978576
+        ]
+      },
+      "xrefs": [
+        {
+          "label": "neuronbridge",
+          "accession": "65363",
+          "link": "https://neuronbridge.janelia.org/search?q=65363",
+          "icon": "http://www.virtualflybrain.org/data/VFB/logos/neuronbridge.png"
+        },
+        {
+          "label": "Neuprint web interface - JRC_Optic-Lobe:v1.0.1",
+          "accession": "65363",
+          "link": "https://neuprint.janelia.org/results?dataset=optic-lobe%3Av1.0.1&qt=findneurons&q=1&qr%5B0%5D%5Bcode%5D=fn&qr%5B0%5D%5Bds%5D=optic-lobe%3Av1.0.1&qr%5B0%5D%5Bpm%5D%5Bdataset%5D=optic-lobe%3Av1.0.1&qr%5B0%5D%5Bpm%5D%5BinputMatchAny%5D=false&qr%5B0%5D%5Bpm%5D%5BoutputMatchAny%5D=false&qr%5B0%5D%5Bpm%5D%5Ball_segments%5D=false&qr%5B0%5D%5Bpm%5D%5Benable_contains%5D=true&qr%5B0%5D%5Bpm%5D%5Bneuron_id%5D=65363",
+          "icon": "http://www.virtualflybrain.org/data/VFB/logos/neuprintexplorerw.png"
+        }
+      ]
+    },
+    {
+      "id": "VFB_00104jor",
+      "name": "Tm3_R (JRC_OpticLobe:94380)",
+      "types": "[transmedullary neuron Tm3](FBbt_00003791)",
+      "properties": "92% [capable of](RO_0002215): [acetylcholine secretion, neurotransmission](GO_0014055) ([FlyBase:FBrf0262545](http://flybase.org/reports/FBrf0262545)); [is part of](BFO_0000050): [male organism](FBbt_00007004)",
+      "comment": "status-Traced, status label-Roughly traced, Optic Lobe classification: type-Tm3",
+      "asset": "VFB_00104jor.swc",
+      "assetFormat": "swc",
+      "assetUrl": "https://www.virtualflybrain.org/data/VFB/i/0010/4jor/VFB_00101567/volume.swc",
+      "assetSha256": "1b272d0adf11c3a9fd4c0db8cc418291845ad02de80acbccf1019de159a063f9",
+      "templateId": "VFB_00101567",
+      "license": {
+        "0": {
+          "iri": "http://virtualflybrain.org/reports/VFBlicense_CC_BY_4_0",
+          "short_form": "VFBlicense_CC_BY_4_0",
+          "label": "CC-BY_4.0",
+          "icon": "http://mirrors.creativecommons.org/presskit/buttons/88x31/png/by.png",
+          "source": "Optic Lobe connectome neurons from optic_lobe:v1.0.1, Nern et al., 2024",
+          "source_iri": "http://virtualflybrain.org/data/Nern2024"
+        }
+      },
+      "vfbUrl": "https://v2.virtualflybrain.org/org.geppetto.frontend/geppetto?id=VFB_00104jor&i=VFB_00101567,VFB_00104jor",
+      "pointCount": 545,
+      "bounds": {
+        "min": [
+          15.067266563562484,
+          142.81471269359957,
+          116.83501764403702
+        ],
+        "max": [
+          129.79900770763564,
+          160.20972597277256,
+          135.6830830565974
+        ]
+      },
+      "xrefs": [
+        {
+          "label": "Neuprint web interface - JRC_Optic-Lobe:v1.0.1",
+          "accession": "94380",
+          "link": "https://neuprint.janelia.org/results?dataset=optic-lobe%3Av1.0.1&qt=findneurons&q=1&qr%5B0%5D%5Bcode%5D=fn&qr%5B0%5D%5Bds%5D=optic-lobe%3Av1.0.1&qr%5B0%5D%5Bpm%5D%5Bdataset%5D=optic-lobe%3Av1.0.1&qr%5B0%5D%5Bpm%5D%5BinputMatchAny%5D=false&qr%5B0%5D%5Bpm%5D%5BoutputMatchAny%5D=false&qr%5B0%5D%5Bpm%5D%5Ball_segments%5D=false&qr%5B0%5D%5Bpm%5D%5Benable_contains%5D=true&qr%5B0%5D%5Bpm%5D%5Bneuron_id%5D=94380",
+          "icon": "http://www.virtualflybrain.org/data/VFB/logos/neuprintexplorerw.png"
+        },
+        {
+          "label": "neuronbridge",
+          "accession": "94380",
+          "link": "https://neuronbridge.janelia.org/search?q=94380",
+          "icon": "http://www.virtualflybrain.org/data/VFB/logos/neuronbridge.png"
+        }
+      ]
+    },
+    {
+      "id": "VFB_00104k0l",
+      "name": "Tm3_R (JRC_OpticLobe:86715)",
+      "types": "[transmedullary neuron Tm3](FBbt_00003791)",
+      "properties": "93% [capable of](RO_0002215): [acetylcholine secretion, neurotransmission](GO_0014055) ([FlyBase:FBrf0262545](http://flybase.org/reports/FBrf0262545)); [is part of](BFO_0000050): [male organism](FBbt_00007004)",
+      "comment": "status-Traced, status label-Roughly traced, Optic Lobe classification: type-Tm3",
+      "asset": "VFB_00104k0l.swc",
+      "assetFormat": "swc",
+      "assetUrl": "https://www.virtualflybrain.org/data/VFB/i/0010/4k0l/VFB_00101567/volume.swc",
+      "assetSha256": "06dcae87abe00e3ec3f5a17c333f76b198c05a6750f6408f7c23fc727ab80fbd",
+      "templateId": "VFB_00101567",
+      "license": {
+        "0": {
+          "iri": "http://virtualflybrain.org/reports/VFBlicense_CC_BY_4_0",
+          "short_form": "VFBlicense_CC_BY_4_0",
+          "label": "CC-BY_4.0",
+          "icon": "http://mirrors.creativecommons.org/presskit/buttons/88x31/png/by.png",
+          "source": "Optic Lobe connectome neurons from optic_lobe:v1.0.1, Nern et al., 2024",
+          "source_iri": "http://virtualflybrain.org/data/Nern2024"
+        }
+      },
+      "vfbUrl": "https://v2.virtualflybrain.org/org.geppetto.frontend/geppetto?id=VFB_00104k0l&i=VFB_00101567,VFB_00104k0l",
+      "pointCount": 575,
+      "bounds": {
+        "min": [
+          86.31156297944189,
+          209.15128441858846,
+          40.741606619642305
+        ],
+        "max": [
+          161.19589513703957,
+          226.45630933341945,
+          131.4268231939117
+        ]
+      },
+      "xrefs": [
+        {
+          "label": "neuronbridge",
+          "accession": "86715",
+          "link": "https://neuronbridge.janelia.org/search?q=86715",
+          "icon": "http://www.virtualflybrain.org/data/VFB/logos/neuronbridge.png"
+        },
+        {
+          "label": "Neuprint web interface - JRC_Optic-Lobe:v1.0.1",
+          "accession": "86715",
+          "link": "https://neuprint.janelia.org/results?dataset=optic-lobe%3Av1.0.1&qt=findneurons&q=1&qr%5B0%5D%5Bcode%5D=fn&qr%5B0%5D%5Bds%5D=optic-lobe%3Av1.0.1&qr%5B0%5D%5Bpm%5D%5Bdataset%5D=optic-lobe%3Av1.0.1&qr%5B0%5D%5Bpm%5D%5BinputMatchAny%5D=false&qr%5B0%5D%5Bpm%5D%5BoutputMatchAny%5D=false&qr%5B0%5D%5Bpm%5D%5Ball_segments%5D=false&qr%5B0%5D%5Bpm%5D%5Benable_contains%5D=true&qr%5B0%5D%5Bpm%5D%5Bneuron_id%5D=86715",
+          "icon": "http://www.virtualflybrain.org/data/VFB/logos/neuprintexplorerw.png"
+        }
+      ],
+      "connectivity": {
+        "count": 134,
+        "countStatus": "exact",
+        "upstream": [
+          {
+            "id": "VFB_00103sa8",
+            "label": "[L1_R (JRC_OpticLobe:34075)](VFB_00103sa8)",
+            "type": "[lamina monopolar neuron L1](FBbt_00003719)",
+            "outputs": 4,
+            "inputs": 32,
+            "template": "[JRC2018U](VFB_00101567)",
+            "technique": "focused ion beam scanning electron microscopy",
+            "tags": "Nervous_system|Glutamatergic|Visual_system|Adult"
+          },
+          {
+            "id": "VFB_00103sfc",
+            "label": "[L1_R (JRC_OpticLobe:32720)](VFB_00103sfc)",
+            "type": "[lamina monopolar neuron L1](FBbt_00003719)",
+            "outputs": 4,
+            "inputs": 31,
+            "template": "[JRC2018U](VFB_00101567)",
+            "technique": "focused ion beam scanning electron microscopy",
+            "tags": "Nervous_system|Glutamatergic|Adult|Visual_system"
+          },
+          {
+            "id": "VFB_00103v0b",
+            "label": "[L5_R (JRC_OpticLobe:105062)](VFB_00103v0b)",
+            "type": "[lamina monopolar neuron L5](FBbt_00003725)",
+            "outputs": 0,
+            "inputs": 25,
+            "template": "[JRC2018U](VFB_00101567)",
+            "technique": "focused ion beam scanning electron microscopy",
+            "tags": "Nervous_system|Visual_system|Adult|Cholinergic"
+          },
+          {
+            "id": "VFB_001041n0",
+            "label": "[Mi1_R (JRC_OpticLobe:40936)](VFB_001041n0)",
+            "type": "[medulla intrinsic neuron Mi1](FBbt_00003776)",
+            "outputs": 2,
+            "inputs": 22,
+            "template": "[JRC2018U](VFB_00101567)",
+            "technique": "focused ion beam scanning electron microscopy",
+            "tags": "secondary_neuron|Nervous_system|Adult|Visual_system|Cholinergic"
+          },
+          {
+            "id": "VFB_00103oz8",
+            "label": "[Dm1_R (JRC_OpticLobe:166528)](VFB_00103oz8)",
+            "type": "[distal medullary amacrine neuron Dm1](FBbt_00003768)",
+            "outputs": 0,
+            "inputs": 16,
+            "template": "[JRC2018U](VFB_00101567)",
+            "technique": "focused ion beam scanning electron microscopy",
+            "tags": "secondary_neuron|Nervous_system|Glutamatergic|Visual_system|Adult"
+          },
+          {
+            "id": "VFB_00103sj0",
+            "label": "[L1_R (JRC_OpticLobe:37315)](VFB_00103sj0)",
+            "type": "[lamina monopolar neuron L1](FBbt_00003719)",
+            "outputs": 3,
+            "inputs": 16,
+            "template": "[JRC2018U](VFB_00101567)",
+            "technique": "focused ion beam scanning electron microscopy",
+            "tags": "Nervous_system|Glutamatergic|Visual_system|Adult"
+          },
+          {
+            "id": "VFB_001041dt",
+            "label": "[Mi1_R (JRC_OpticLobe:38477)](VFB_001041dt)",
+            "type": "[medulla intrinsic neuron Mi1](FBbt_00003776)",
+            "outputs": 0,
+            "inputs": 16,
+            "template": "[JRC2018U](VFB_00101567)",
+            "technique": "focused ion beam scanning electron microscopy",
+            "tags": "secondary_neuron|Nervous_system|Adult|Visual_system|Cholinergic"
+          },
+          {
+            "id": "VFB_00103sn5",
+            "label": "[L1_R (JRC_OpticLobe:32011)](VFB_00103sn5)",
+            "type": "[lamina monopolar neuron L1](FBbt_00003719)",
+            "outputs": 2,
+            "inputs": 15,
+            "template": "[JRC2018U](VFB_00101567)",
+            "technique": "focused ion beam scanning electron microscopy",
+            "tags": "Nervous_system|Glutamatergic|Visual_system|Adult"
+          }
+        ],
+        "downstream": [
+          {
+            "id": "VFB_00104on3",
+            "label": "[TmY14_R (JRC_OpticLobe:26787)](VFB_00104on3)",
+            "type": "[transmedullary Y neuron TmY14](FBbt_00111286)",
+            "outputs": 28,
+            "inputs": 0,
+            "template": "[JRC2018U](VFB_00101567)",
+            "technique": "focused ion beam scanning electron microscopy",
+            "tags": "secondary_neuron|Nervous_system|Glutamatergic|Adult|Visual_system"
+          },
+          {
+            "id": "VFB_001045ie",
+            "label": "[Pm4_R (JRC_OpticLobe:21789)](VFB_001045ie)",
+            "type": "[proximal medullary amacrine neuron Pm4](FBbt_00111282)",
+            "outputs": 22,
+            "inputs": 0,
+            "template": "[JRC2018U](VFB_00101567)",
+            "technique": "focused ion beam scanning electron microscopy",
+            "tags": "secondary_neuron|Nervous_system|GABAergic|Adult|Visual_system"
+          },
+          {
+            "id": "VFB_00104qre",
+            "label": "[TmY5a_R (JRC_OpticLobe:61010)](VFB_00104qre)",
+            "type": "[transmedullary Y neuron TmY5a](FBbt_00003823)",
+            "outputs": 18,
+            "inputs": 0,
+            "template": "[JRC2018U](VFB_00101567)",
+            "technique": "focused ion beam scanning electron microscopy",
+            "tags": "secondary_neuron|Nervous_system|Glutamatergic|Visual_system|Adult"
+          },
+          {
+            "id": "VFB_0010459y",
+            "label": "[Pm10_R (JRC_OpticLobe:22809)](VFB_0010459y)",
+            "type": "[proximal medullary amacrine neuron Pm10](FBbt_20007262)",
+            "outputs": 17,
+            "inputs": 4,
+            "template": "[JRC2018U](VFB_00101567)",
+            "technique": "focused ion beam scanning electron microscopy",
+            "tags": "Nervous_system|GABAergic|Adult|Visual_system"
+          },
+          {
+            "id": "VFB_00104btz",
+            "label": "[T4a_R (JRC_OpticLobe:115111)](VFB_00104btz)",
+            "type": "[T4a neuron](FBbt_00003732)",
+            "outputs": 16,
+            "inputs": 0,
+            "template": "[JRC2018U](VFB_00101567)",
+            "technique": "focused ion beam scanning electron microscopy",
+            "tags": "secondary_neuron|Nervous_system|Visual_system|Adult|Cholinergic"
+          },
+          {
+            "id": "VFB_00104ot2",
+            "label": "[TmY15_R (JRC_OpticLobe:37771)](VFB_00104ot2)",
+            "type": "[transmedullary Y neuron TmY15](FBbt_00048246)",
+            "outputs": 16,
+            "inputs": 0,
+            "template": "[JRC2018U](VFB_00101567)",
+            "technique": "focused ion beam scanning electron microscopy",
+            "tags": "Nervous_system|GABAergic|Adult|Visual_system"
+          },
+          {
+            "id": "VFB_001045mj",
+            "label": "[Pm7_R (JRC_OpticLobe:19099)](VFB_001045mj)",
+            "type": "[proximal medullary amacrine neuron Pm7](FBbt_20007265)",
+            "outputs": 13,
+            "inputs": 0,
+            "template": "[JRC2018U](VFB_00101567)",
+            "technique": "focused ion beam scanning electron microscopy",
+            "tags": "Nervous_system|Adult|GABAergic|Visual_system"
+          },
+          {
+            "id": "VFB_00104daa",
+            "label": "[T4d_R (JRC_OpticLobe:99789)](VFB_00104daa)",
+            "type": "[T4d neuron](FBbt_00003735)",
+            "outputs": 13,
+            "inputs": 0,
+            "template": "[JRC2018U](VFB_00101567)",
+            "technique": "focused ion beam scanning electron microscopy",
+            "tags": "secondary_neuron|Nervous_system|Visual_system|Adult|Cholinergic"
+          }
+        ]
+      }
+    },
+    {
+      "id": "VFB_00104nnt",
+      "name": "Tm9_R (JRC_OpticLobe:139720)",
+      "types": "[transmedullary neuron Tm9](FBbt_00003797)",
+      "properties": "[is part of](BFO_0000050): [male organism](FBbt_00007004)",
+      "comment": "status-Traced, status label-Roughly traced, Optic Lobe classification: type-Tm9",
+      "asset": "VFB_00104nnt.swc",
+      "assetFormat": "swc",
+      "assetUrl": "https://www.virtualflybrain.org/data/VFB/i/0010/4nnt/VFB_00101567/volume.swc",
+      "assetSha256": "2e104e5205428a8c2aa1f9b222ffab17973a1233a8d9080ec49f53d6a53d43b3",
+      "templateId": "VFB_00101567",
+      "license": {
+        "0": {
+          "iri": "http://virtualflybrain.org/reports/VFBlicense_CC_BY_4_0",
+          "short_form": "VFBlicense_CC_BY_4_0",
+          "label": "CC-BY_4.0",
+          "icon": "http://mirrors.creativecommons.org/presskit/buttons/88x31/png/by.png",
+          "source": "Optic Lobe connectome neurons from optic_lobe:v1.0.1, Nern et al., 2024",
+          "source_iri": "http://virtualflybrain.org/data/Nern2024"
+        }
+      },
+      "vfbUrl": "https://v2.virtualflybrain.org/org.geppetto.frontend/geppetto?id=VFB_00104nnt&i=VFB_00101567,VFB_00104nnt",
+      "pointCount": 341,
+      "bounds": {
+        "min": [
+          77.34290261431623,
+          204.78563339614843,
+          88.13586292076792
+        ],
+        "max": [
+          162.34246141033302,
+          253.41971671731517,
+          128.80903404652594
+        ]
+      },
+      "xrefs": [
+        {
+          "label": "neuronbridge",
+          "accession": "139720",
+          "link": "https://neuronbridge.janelia.org/search?q=139720",
+          "icon": "http://www.virtualflybrain.org/data/VFB/logos/neuronbridge.png"
+        },
+        {
+          "label": "Neuprint web interface - JRC_Optic-Lobe:v1.0.1",
+          "accession": "139720",
+          "link": "https://neuprint.janelia.org/results?dataset=optic-lobe%3Av1.0.1&qt=findneurons&q=1&qr%5B0%5D%5Bcode%5D=fn&qr%5B0%5D%5Bds%5D=optic-lobe%3Av1.0.1&qr%5B0%5D%5Bpm%5D%5Bdataset%5D=optic-lobe%3Av1.0.1&qr%5B0%5D%5Bpm%5D%5BinputMatchAny%5D=false&qr%5B0%5D%5Bpm%5D%5BoutputMatchAny%5D=false&qr%5B0%5D%5Bpm%5D%5Ball_segments%5D=false&qr%5B0%5D%5Bpm%5D%5Benable_contains%5D=true&qr%5B0%5D%5Bpm%5D%5Bneuron_id%5D=139720",
+          "icon": "http://www.virtualflybrain.org/data/VFB/logos/neuprintexplorerw.png"
+        }
+      ],
+      "connectivity": {
+        "count": 26,
+        "countStatus": "exact",
+        "upstream": [
+          {
+            "id": "VFB_00103u07",
+            "label": "[L3_R (JRC_OpticLobe:161461)](VFB_00103u07)",
+            "type": "[lamina monopolar neuron L3](FBbt_00003721)",
+            "outputs": 0,
+            "inputs": 18,
+            "template": "[JRC2018U](VFB_00101567)",
+            "technique": "focused ion beam scanning electron microscopy",
+            "tags": "Nervous_system|Visual_system|GABAergic|Adult"
+          },
+          {
+            "id": "VFB_001040ju",
+            "label": "[MeVC11_L (JRC_OpticLobe:10046)](VFB_001040ju)",
+            "type": "[adult medulla visual centrifugal neuron MeVCMe11](FBbt_20001880)",
+            "outputs": 0,
+            "inputs": 7,
+            "template": "[JRC2018U](VFB_00101567)",
+            "technique": "focused ion beam scanning electron microscopy",
+            "tags": "lineage_DM1_DPMm1|Adult|Visual_system|Cholinergic"
+          },
+          {
+            "id": "VFB_00103noc",
+            "label": "[CT1_L (JRC_OpticLobe:10009)](VFB_00103noc)",
+            "type": "[tangential neuron CT1](FBbt_00048245)",
+            "outputs": 14,
+            "inputs": 6,
+            "template": "[JRC2018U](VFB_00101567)",
+            "technique": "focused ion beam scanning electron microscopy",
+            "tags": "Nervous_system|GABAergic|Adult|Visual_system"
+          },
+          {
+            "id": "VFB_001044b0",
+            "label": "[Mi4_R (JRC_OpticLobe:80645)](VFB_001044b0)",
+            "type": "[medulla intrinsic neuron Mi4](FBbt_00003779)",
+            "outputs": 0,
+            "inputs": 6,
+            "template": "[JRC2018U](VFB_00101567)",
+            "technique": "focused ion beam scanning electron microscopy",
+            "tags": "secondary_neuron|Nervous_system|Adult|GABAergic|Visual_system"
+          },
+          {
+            "id": "VFB_00103pbp",
+            "label": "[Dm12_R (JRC_OpticLobe:40659)](VFB_00103pbp)",
+            "type": "[distal medullary amacrine neuron Dm12](FBbt_00111273)",
+            "outputs": 0,
+            "inputs": 5,
+            "template": "[JRC2018U](VFB_00101567)",
+            "technique": "focused ion beam scanning electron microscopy",
+            "tags": "secondary_neuron|Nervous_system|Glutamatergic|Adult|Visual_system"
+          },
+          {
+            "id": "VFB_00104hqf",
+            "label": "[Tm16_R (JRC_OpticLobe:95250)](VFB_00104hqf)",
+            "type": "[transmedullary neuron Tm16](FBbt_00003804)",
+            "outputs": 0,
+            "inputs": 5,
+            "template": "[JRC2018U](VFB_00101567)",
+            "technique": "focused ion beam scanning electron microscopy",
+            "tags": "Nervous_system|Neuron|Visual_system|Adult"
+          },
+          {
+            "id": "VFB_00103tuy",
+            "label": "[L3_R (JRC_OpticLobe:75857)](VFB_00103tuy)",
+            "type": "[lamina monopolar neuron L3](FBbt_00003721)",
+            "outputs": 0,
+            "inputs": 4,
+            "template": "[JRC2018U](VFB_00101567)",
+            "technique": "focused ion beam scanning electron microscopy",
+            "tags": "Nervous_system|GABAergic|Adult|Visual_system"
+          },
+          {
+            "id": "VFB_00103ngo",
+            "label": "[C3_R (JRC_OpticLobe:84361)](VFB_00103ngo)",
+            "type": "[centrifugal neuron C3](FBbt_00003744)",
+            "outputs": 0,
+            "inputs": 2,
+            "template": "[JRC2018U](VFB_00101567)",
+            "technique": "focused ion beam scanning electron microscopy",
+            "tags": "Nervous_system|GABAergic|Adult|Visual_system"
+          }
+        ],
+        "downstream": [
+          {
+            "id": "VFB_00103noc",
+            "label": "[CT1_L (JRC_OpticLobe:10009)](VFB_00103noc)",
+            "type": "[tangential neuron CT1](FBbt_00048245)",
+            "outputs": 14,
+            "inputs": 6,
+            "template": "[JRC2018U](VFB_00101567)",
+            "technique": "focused ion beam scanning electron microscopy",
+            "tags": "Nervous_system|GABAergic|Adult|Visual_system"
+          },
+          {
+            "id": "VFB_00104fjx",
+            "label": "[T5c_R (JRC_OpticLobe:134661)](VFB_00104fjx)",
+            "type": "[T5c neuron](FBbt_00003739)",
+            "outputs": 10,
+            "inputs": 0,
+            "template": "[JRC2018U](VFB_00101567)",
+            "technique": "focused ion beam scanning electron microscopy",
+            "tags": "secondary_neuron|Nervous_system|Visual_system|Adult|Cholinergic"
+          },
+          {
+            "id": "VFB_00104dyn",
+            "label": "[T5a_R (JRC_OpticLobe:150880)](VFB_00104dyn)",
+            "type": "[T5a neuron](FBbt_00003737)",
+            "outputs": 9,
+            "inputs": 0,
+            "template": "[JRC2018U](VFB_00101567)",
+            "technique": "focused ion beam scanning electron microscopy",
+            "tags": "secondary_neuron|Nervous_system|Visual_system|Adult|Cholinergic"
+          },
+          {
+            "id": "VFB_00104e8u",
+            "label": "[T5a_R (JRC_OpticLobe:132090)](VFB_00104e8u)",
+            "type": "[T5a neuron](FBbt_00003737)",
+            "outputs": 7,
+            "inputs": 0,
+            "template": "[JRC2018U](VFB_00101567)",
+            "technique": "focused ion beam scanning electron microscopy",
+            "tags": "secondary_neuron|Nervous_system|Visual_system|Adult|Cholinergic"
+          },
+          {
+            "id": "VFB_00104eby",
+            "label": "[T5a_R (JRC_OpticLobe:126087)](VFB_00104eby)",
+            "type": "[T5a neuron](FBbt_00003737)",
+            "outputs": 6,
+            "inputs": 0,
+            "template": "[JRC2018U](VFB_00101567)",
+            "technique": "focused ion beam scanning electron microscopy",
+            "tags": "secondary_neuron|Nervous_system|Adult|Visual_system|Cholinergic"
+          },
+          {
+            "id": "VFB_00104eei",
+            "label": "[T5a_R (JRC_OpticLobe:105914)](VFB_00104eei)",
+            "type": "[T5a neuron](FBbt_00003737)",
+            "outputs": 5,
+            "inputs": 0,
+            "template": "[JRC2018U](VFB_00101567)",
+            "technique": "focused ion beam scanning electron microscopy",
+            "tags": "secondary_neuron|Nervous_system|Visual_system|Adult|Cholinergic"
+          },
+          {
+            "id": "VFB_00104dys",
+            "label": "[T5a_R (JRC_OpticLobe:149319)](VFB_00104dys)",
+            "type": "[T5a neuron](FBbt_00003737)",
+            "outputs": 5,
+            "inputs": 0,
+            "template": "[JRC2018U](VFB_00101567)",
+            "technique": "focused ion beam scanning electron microscopy",
+            "tags": "secondary_neuron|Nervous_system|Visual_system|Adult|Cholinergic"
+          },
+          {
+            "id": "VFB_00104eab",
+            "label": "[T5a_R (JRC_OpticLobe:98384)](VFB_00104eab)",
+            "type": "[T5a neuron](FBbt_00003737)",
+            "outputs": 4,
+            "inputs": 0,
+            "template": "[JRC2018U](VFB_00101567)",
+            "technique": "focused ion beam scanning electron microscopy",
+            "tags": "secondary_neuron|Nervous_system|Adult|Visual_system|Cholinergic"
+          }
+        ]
+      }
+    }
+  ],
+  "regions": [
+    {
+      "id": "VFB_00102107",
+      "name": "ME on JRC2018Unisex adult brain",
+      "types": "[medulla](FBbt_00003748)",
+      "properties": "",
+      "comment": "",
+      "asset": "VFB_00102107.obj",
+      "assetFormat": "obj",
+      "assetUrl": "https://www.virtualflybrain.org/data/VFB/i/0010/2107/VFB_00101567/volume_man.obj",
+      "assetSha256": "b406268c598b9966f759b0bdfdddc7c4f4f77df2488b9f2eb5ac17f6861efb4c",
+      "templateId": "VFB_00101567",
+      "license": {
+        "0": {
+          "iri": "http://virtualflybrain.org/reports/VFBlicense_CC_BY_NC_SA_4_0",
+          "short_form": "VFBlicense_CC_BY_NC_SA_4_0",
+          "label": "CC-BY-NC-SA_4.0",
+          "icon": "http://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-sa.png",
+          "source": "JRC 2018 templates & ROIs",
+          "source_iri": "http://virtualflybrain.org/reports/JRC2018"
+        }
+      },
+      "vfbUrl": "https://v2.virtualflybrain.org/org.geppetto.frontend/geppetto?id=VFB_00102107&i=VFB_00101567,VFB_00102107",
+      "pointCount": 32294,
+      "bounds": {
+        "min": [
+          27.026571,
+          85.42232,
+          43.34819
+        ],
+        "max": [
+          600.4697,
+          272.85153,
+          157.25845
+        ]
+      },
+      "xrefs": []
+    },
+    {
+      "id": "VFB_00102109",
+      "name": "LO on JRC2018Unisex adult brain",
+      "types": "[lobula](FBbt_00003852)",
+      "properties": "",
+      "comment": "",
+      "asset": "VFB_00102109.obj",
+      "assetFormat": "obj",
+      "assetUrl": "https://www.virtualflybrain.org/data/VFB/i/0010/2109/VFB_00101567/volume_man.obj",
+      "assetSha256": "779c87491f3e5255967eab783dc52b40cd7f85f6c89021e6f7e21fa8103c68e9",
+      "templateId": "VFB_00101567",
+      "license": {
+        "0": {
+          "iri": "http://virtualflybrain.org/reports/VFBlicense_CC_BY_NC_SA_4_0",
+          "short_form": "VFBlicense_CC_BY_NC_SA_4_0",
+          "label": "CC-BY-NC-SA_4.0",
+          "icon": "http://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-sa.png",
+          "source": "JRC 2018 templates & ROIs",
+          "source_iri": "http://virtualflybrain.org/reports/JRC2018"
+        }
+      },
+      "vfbUrl": "https://v2.virtualflybrain.org/org.geppetto.frontend/geppetto?id=VFB_00102109&i=VFB_00101567,VFB_00102109",
+      "pointCount": 13740,
+      "bounds": {
+        "min": [
+          105.98457,
+          102.166145,
+          78.73829
+        ],
+        "max": [
+          521.50696,
+          233.26764,
+          165.12291
+        ]
+      },
+      "xrefs": []
+    },
+    {
+      "id": "VFB_00102110",
+      "name": "LOP on JRC2018Unisex adult brain",
+      "types": "[lobula plate](FBbt_00003885)",
+      "properties": "",
+      "comment": "",
+      "asset": "VFB_00102110.obj",
+      "assetFormat": "obj",
+      "assetUrl": "https://www.virtualflybrain.org/data/VFB/i/0010/2110/VFB_00101567/volume_man.obj",
+      "assetSha256": "d86bafd4d1089a00cdb8d78b692a43306335837128f1e4df8d1032998beadd62",
+      "templateId": "VFB_00101567",
+      "license": {
+        "0": {
+          "iri": "http://virtualflybrain.org/reports/VFBlicense_CC_BY_NC_SA_4_0",
+          "short_form": "VFBlicense_CC_BY_NC_SA_4_0",
+          "label": "CC-BY-NC-SA_4.0",
+          "icon": "http://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-sa.png",
+          "source": "JRC 2018 templates & ROIs",
+          "source_iri": "http://virtualflybrain.org/reports/JRC2018"
+        }
+      },
+      "vfbUrl": "https://v2.virtualflybrain.org/org.geppetto.frontend/geppetto?id=VFB_00102110&i=VFB_00101567,VFB_00102110",
+      "pointCount": 12462,
+      "bounds": {
+        "min": [
+          68.58436,
+          110.4637,
+          106.21674
+        ],
+        "max": [
+          558.90607,
+          247.85666,
+          165.12291
+        ]
+      },
+      "xrefs": []
+    }
+  ],
+  "verifiedEdgesAmongDownloadedNeurons": [
+    {
+      "source": "VFB_00104bfr",
+      "target": "VFB_00103s4o",
+      "synapses": 13,
+      "evidence": "VFB NeuronNeuronConnectivityQuery; structural synapse count, not a physiological weight"
+    },
+    {
+      "source": "VFB_001041bq",
+      "target": "VFB_00104bfr",
+      "synapses": 25,
+      "evidence": "VFB NeuronNeuronConnectivityQuery; structural synapse count, not a physiological weight"
+    },
+    {
+      "source": "VFB_00104jor",
+      "target": "VFB_00104bfr",
+      "synapses": 12,
+      "evidence": "VFB NeuronNeuronConnectivityQuery; structural synapse count, not a physiological weight"
+    },
+    {
+      "source": "VFB_00104dxc",
+      "target": "VFB_00103s4o",
+      "synapses": 21,
+      "evidence": "VFB NeuronNeuronConnectivityQuery; structural synapse count, not a physiological weight"
+    },
+    {
+      "source": "VFB_00104iha",
+      "target": "VFB_00104dxc",
+      "synapses": 21,
+      "evidence": "VFB NeuronNeuronConnectivityQuery; structural synapse count, not a physiological weight"
+    }
+  ]
+}

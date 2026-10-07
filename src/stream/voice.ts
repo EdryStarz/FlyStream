@@ -1,0 +1,22 @@
+export type VoiceProvider='browser'|'server'|'silent';
+export type VoiceStatus={state:string;latencyMs:number;queued:number;provider:VoiceProvider};
+type Line={id:string;text:string;priority:number;at:number;expiresAt:number};
+type Active={token:number;controller:AbortController;audio:HTMLAudioElement|null;url:string|null;timer:ReturnType<typeof setTimeout>|null};
+/** Only moderated character lines enter this queue; viewer text is never interpreted. */
+export class VoiceQueue{
+ provider:VoiceProvider='browser';volume=.65;enabled=false;private queue:Line[]=[];private seen=new Set<string>();private active:Active|null=null;private token=0;
+ onStatus:(s:VoiceStatus)=>void=()=>{};status:VoiceStatus={state:'Muted',latencyMs:0,queued:0,provider:'browser'};
+ configure(enabled:boolean,volume:number,provider:VoiceProvider){const changed=provider!==this.provider;this.enabled=enabled;this.volume=Math.max(0,Math.min(1,volume));this.provider=provider;if(this.active?.audio)this.active.audio.volume=this.volume;if(!enabled||changed)this.interrupt();}
+ push(id:string,text:string,priority=0){if(this.seen.has(id)||!text||!this.enabled)return;this.seen.add(id);if(this.seen.size>300)this.seen.delete(this.seen.values().next().value!);const clean=text.replace(/https?:\/\/\S+|<[^>]*>|[\u0000-\u001f]/g,' ').slice(0,350);if(priority>=9)this.interrupt();if(this.queue.length>=4)this.queue.shift();this.queue.push({id,text:clean,priority,at:performance.now(),expiresAt:performance.now()+12000});this.queue.sort((a,b)=>b.priority-a.priority);void this.run();}
+ private report(state:string,latencyMs=this.status.latencyMs){this.status={state,latencyMs,queued:this.queue.length,provider:this.provider};this.onStatus(this.status);}
+ private release(active:Active){if(active.timer)clearTimeout(active.timer);active.controller.abort();if(active.audio){active.audio.onended=null;active.audio.onerror=null;active.audio.pause();active.audio.removeAttribute('src');}if(active.url)URL.revokeObjectURL(active.url);if(this.active===active)this.active=null;}
+ private async run(){if(this.active||!this.enabled)return;while(this.queue.length&&this.queue[0].expiresAt<performance.now())this.queue.shift();const item=this.queue.shift();if(!item)return;const active:Active={token:++this.token,controller:new AbortController(),audio:null,url:null,timer:null};this.active=active;let complete=false;
+ const current=()=>!complete&&this.active===active&&this.enabled;const done=(message='Ready')=>{if(!current())return;complete=true;this.release(active);this.report(message);void this.run();};active.timer=setTimeout(()=>{if(!current())return;window.speechSynthesis?.cancel();done('Voice timeout · subtitles continue');},18000);this.report('Preparing');
+ if(this.provider==='silent'){if(active.timer)clearTimeout(active.timer);this.report('Subtitles only',0);active.timer=setTimeout(()=>done(),1800);return;}
+ if(this.provider==='server'){try{const r=await fetch('/api/tts',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({text:item.text,speechId:Number(item.id)}),signal:active.controller.signal});if(!r.ok)throw new Error('Provider unavailable');const blob=await r.blob();if(!current())return;if(blob.size>5000000)throw Error('Voice response too large');active.url=URL.createObjectURL(blob);const audio=new Audio(active.url);active.audio=audio;audio.volume=this.volume;audio.onended=()=>done();audio.onerror=()=>done('Audio unavailable · subtitles continue');await audio.play();if(!current())return;this.report('Speaking',performance.now()-item.at);return;}catch{if(!current())return;this.report('Provider unavailable · browser fallback');}}
+ if(!('speechSynthesis'in window)){done('Subtitles only · no browser voice');return;}
+ const utterance=new SpeechSynthesisUtterance(item.text);utterance.lang='ru-RU';utterance.rate=1.18;utterance.pitch=1.35;utterance.volume=this.volume;const voice=speechSynthesis.getVoices().find(v=>v.lang.startsWith('ru'));if(voice)utterance.voice=voice;utterance.onstart=()=>{if(current())this.report('Speaking',performance.now()-item.at);};utterance.onend=()=>done();utterance.onerror=()=>done('Subtitles active · voice unavailable');if(current())speechSynthesis.speak(utterance);
+ }
+ interrupt(){this.token++;this.queue=[];if(this.active)this.release(this.active);window.speechSynthesis?.cancel();this.report(this.enabled?'Interrupted':'Muted');}
+ dispose(){this.interrupt();this.onStatus=()=>{};}
+}

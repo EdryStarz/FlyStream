@@ -1,0 +1,108 @@
+{
+  "date": "2026-09-19T12:45:33.606Z",
+  "durationSeconds": 180,
+  "gcControlled": true,
+  "retainedHeapGrowth": 840676,
+  "errors": [],
+  "readings": [
+    {
+      "label": "baseline",
+      "usedSize": 17303848,
+      "totalSize": 19607552,
+      "embedderHeapUsedSize": 2144840,
+      "backingStorageSize": 4996068,
+      "canvases": 4,
+      "performance": "29 fps4.8 ms compute"
+    },
+    {
+      "label": "20s",
+      "usedSize": 17693044,
+      "totalSize": 19607552,
+      "embedderHeapUsedSize": 2136976,
+      "backingStorageSize": 4995991,
+      "canvases": 4,
+      "performance": "28 fps5.0 ms compute"
+    },
+    {
+      "label": "40s",
+      "usedSize": 17766276,
+      "totalSize": 19607552,
+      "embedderHeapUsedSize": 2093448,
+      "backingStorageSize": 4996069,
+      "canvases": 4,
+      "performance": "26 fps5.2 ms compute"
+    },
+    {
+      "label": "60s",
+      "usedSize": 17794676,
+      "totalSize": 20131840,
+      "embedderHeapUsedSize": 2195256,
+      "backingStorageSize": 4996129,
+      "canvases": 4,
+      "performance": "26 fps5.1 ms compute"
+    },
+    {
+      "label": "80s",
+      "usedSize": 18104740,
+      "totalSize": 20393984,
+      "embedderHeapUsedSize": 2174832,
+      "backingStorageSize": 4996828,
+      "canvases": 4,
+      "performance": "26 fps5.0 ms compute"
+    },
+    {
+      "label": "100s",
+      "usedSize": 18131436,
+      "totalSize": 20656128,
+      "embedderHeapUsedSize": 2284920,
+      "backingStorageSize": 4996845,
+      "canvases": 4,
+      "performance": "26 fps5.1 ms compute"
+    },
+    {
+      "label": "120s",
+      "usedSize": 18144496,
+      "totalSize": 20393984,
+      "embedderHeapUsedSize": 2202456,
+      "backingStorageSize": 4996813,
+      "canvases": 4,
+      "performance": "26 fps5.0 ms compute"
+    },
+    {
+      "label": "140s",
+      "usedSize": 17346996,
+      "totalSize": 18558976,
+      "embedderHeapUsedSize": 2197800,
+      "backingStorageSize": 4830280,
+      "canvases": 4,
+      "performance": "26 fps4.3 ms compute"
+    },
+    {
+      "label": "160s",
+      "usedSize": 18244592,
+      "totalSize": 20393984,
+      "embedderHeapUsedSize": 2146600,
+      "backingStorageSize": 4996812,
+      "canvases": 4,
+      "performance": "26 fps6.8 ms compute"
+    },
+    {
+      "label": "180s",
+      "usedSize": 18290100,
+      "totalSize": 20393984,
+      "embedderHeapUsedSize": 2164016,
+      "backingStorageSize": 4996809,
+      "canvases": 4,
+      "performance": "26 fps4.7 ms compute"
+    },
+    {
+      "label": "after source switches",
+      "usedSize": 18144524,
+      "totalSize": 20131840,
+      "embedderHeapUsedSize": 2059488,
+      "backingStorageSize": 4996791,
+      "canvases": 4,
+      "performance": "26 fps4.7 ms compute"
+    }
+  ]
+}

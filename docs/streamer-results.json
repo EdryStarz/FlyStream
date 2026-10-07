@@ -1,0 +1,56 @@
+{
+  "at": "2026-10-07T14:53:57.669Z",
+  "errors": [],
+  "checks": [
+    "Actual video frames update and feed model signals",
+    "Fly POV is computed and visible",
+    "Clean OBS output has no operator controls",
+    "Shared moods change actual 3D rendering across routes",
+    "Mock chat command works with duplicate cooldown",
+    "Unsafe viewer TTS is blocked",
+    "Demo sub/tip reactions and clip markers work without fake real revenue",
+    "Poll records actual votes and rejects duplicate viewer",
+    "Find food scores actual one-attempt game input",
+    "Local upload uses real duration, rights gate and on-air attribution",
+    "Replaying current content resets OBS decoder",
+    "Unverified rebroadcast content cannot go on air",
+    "Capture JPEG relay crosses routes and survives panel navigation",
+    "Ended capture expires and shows a safe source",
+    "Vertical WebM recorder exports a complete nonempty video",
+    "Exported WebM decodes at 9:16",
+    "Voice dispatch and shared speech interruption work",
+    "Emergency safe mode stops media, speech and retains the output shell",
+    "390/320 px control panels remain usable without horizontal overflow",
+    "Existing scientific workbench and actual VFB remain functional",
+    "No unexpected page errors"
+  ],
+  "screenshots": [],
+  "performance": [
+    {
+      "fps": "17.8",
+      "drawCalls": "75",
+      "triangles": "12618",
+      "canvases": 3,
+      "heap": 30793213
+    },
+    {
+      "fps": "28.6",
+      "drawCalls": "75",
+      "triangles": "12618",
+      "canvases": 3,
+      "heap": 52283570
+    },
+    {
+      "fps": "21.8",
+      "drawCalls": "75",
+      "triangles": "12618",
+      "canvases": 3,
+      "heap": 48094918
+    }
+  ],
+  "limits": [
+    "No real KICK OAuth credentials or live broadcast used",
+    "TTS API dispatch checked; OS voice audibility not certified",
+    "Capture fixture is locally authored video, not user desktop"
+  ]
+}

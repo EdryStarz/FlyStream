@@ -1,0 +1,453 @@
+{
+  "retrievedAt": "2026-09-16",
+  "neurons": [
+    {
+      "id": "VFB_001041bq",
+      "name": "Mi1_R (JRC_OpticLobe:39964)",
+      "type": "Mi1",
+      "canonicalType": "[medulla intrinsic neuron Mi1](FBbt_00003776)",
+      "dataset": "JRC_Optic-Lobe v1.0.1 (Nern2024)",
+      "template": "JRC2018Unisex",
+      "templateId": "VFB_00101567",
+      "swc": "/data/VFB_001041bq.swc",
+      "assetFilename": "VFB_001041bq.swc",
+      "sourceUrl": "https://www.virtualflybrain.org/data/VFB/i/0010/41bq/VFB_00101567/volume.swc",
+      "vfbUrl": "https://v2.virtualflybrain.org/org.geppetto.frontend/geppetto?id=VFB_001041bq&i=VFB_00101567,VFB_001041bq",
+      "license": "CC-BY 4.0",
+      "sourcePropertyText": "92% [capable of](RO_0002215): [acetylcholine secretion, neurotransmission](GO_0014055) ([FlyBase:FBrf0262545](http://flybase.org/reports/FBrf0262545)); [is part of](BFO_0000050): [male organism](FBbt_00007004)",
+      "neurotransmitter": {
+        "name": "acetylcholine",
+        "evidence": "VFB connectome neurotransmitter prediction",
+        "sourceText": "92% [capable of](RO_0002215): [acetylcholine secretion, neurotransmission](GO_0014055) ([FlyBase:FBrf0262545](http://flybase.org/reports/FBrf0262545)); [is part of](BFO_0000050): [male organism](FBbt_00007004)"
+      },
+      "comment": "status-Traced, status label-Roughly traced, Optic Lobe classification: type-Mi1",
+      "nodeCount": 367,
+      "bounds": {
+        "min": [
+          4.271793562589557,
+          143.26075910844668,
+          116.43495172411387
+        ],
+        "max": [
+          77.86233059510212,
+          161.04098681650746,
+          137.98077833500273
+        ]
+      },
+      "upstream": [],
+      "downstream": [
+        {
+          "id": "VFB_00104bfr",
+          "name": "T4a_R (JRC_OpticLobe:115402)",
+          "synapses": 25
+        }
+      ],
+      "connectivityScope": "Only verified edges among the six downloaded circuit examples; not an exhaustive partner list."
+    },
+    {
+      "id": "VFB_00104jor",
+      "name": "Tm3_R (JRC_OpticLobe:94380)",
+      "type": "Tm3",
+      "canonicalType": "[transmedullary neuron Tm3](FBbt_00003791)",
+      "dataset": "JRC_Optic-Lobe v1.0.1 (Nern2024)",
+      "template": "JRC2018Unisex",
+      "templateId": "VFB_00101567",
+      "swc": "/data/VFB_00104jor.swc",
+      "assetFilename": "VFB_00104jor.swc",
+      "sourceUrl": "https://www.virtualflybrain.org/data/VFB/i/0010/4jor/VFB_00101567/volume.swc",
+      "vfbUrl": "https://v2.virtualflybrain.org/org.geppetto.frontend/geppetto?id=VFB_00104jor&i=VFB_00101567,VFB_00104jor",
+      "license": "CC-BY 4.0",
+      "sourcePropertyText": "92% [capable of](RO_0002215): [acetylcholine secretion, neurotransmission](GO_0014055) ([FlyBase:FBrf0262545](http://flybase.org/reports/FBrf0262545)); [is part of](BFO_0000050): [male organism](FBbt_00007004)",
+      "neurotransmitter": {
+        "name": "acetylcholine",
+        "evidence": "VFB connectome neurotransmitter prediction",
+        "sourceText": "92% [capable of](RO_0002215): [acetylcholine secretion, neurotransmission](GO_0014055) ([FlyBase:FBrf0262545](http://flybase.org/reports/FBrf0262545)); [is part of](BFO_0000050): [male organism](FBbt_00007004)"
+      },
+      "comment": "status-Traced, status label-Roughly traced, Optic Lobe classification: type-Tm3",
+      "nodeCount": 545,
+      "bounds": {
+        "min": [
+          15.067266563562484,
+          142.81471269359957,
+          116.83501764403702
+        ],
+        "max": [
+          129.79900770763564,
+          160.20972597277256,
+          135.6830830565974
+        ]
+      },
+      "upstream": [],
+      "downstream": [
+        {
+          "id": "VFB_00104bfr",
+          "name": "T4a_R (JRC_OpticLobe:115402)",
+          "synapses": 12
+        }
+      ],
+      "connectivityScope": "Only verified edges among the six downloaded circuit examples; not an exhaustive partner list."
+    },
+    {
+      "id": "VFB_00104bfr",
+      "name": "T4a_R (JRC_OpticLobe:115402)",
+      "type": "T4a",
+      "canonicalType": "[T4a neuron](FBbt_00003732)",
+      "dataset": "JRC_Optic-Lobe v1.0.1 (Nern2024)",
+      "template": "JRC2018Unisex",
+      "templateId": "VFB_00101567",
+      "swc": "/data/VFB_00104bfr.swc",
+      "assetFilename": "VFB_00104bfr.swc",
+      "sourceUrl": "https://www.virtualflybrain.org/data/VFB/i/0010/4bfr/VFB_00101567/volume.swc",
+      "vfbUrl": "https://v2.virtualflybrain.org/org.geppetto.frontend/geppetto?id=VFB_00104bfr&i=VFB_00101567,VFB_00104bfr",
+      "license": "CC-BY 4.0",
+      "sourcePropertyText": "[is part of](BFO_0000050): [male organism](FBbt_00007004)",
+      "neurotransmitter": null,
+      "comment": "status-Traced, status label-Roughly traced, Optic Lobe classification: type-T4a",
+      "nodeCount": 407,
+      "bounds": {
+        "min": [
+          70.79884363642407,
+          149.56018008193107,
+          129.0881709982439
+        ],
+        "max": [
+          104.59526934289019,
+          169.94681656989079,
+          158.55529116458513
+        ]
+      },
+      "upstream": [
+        {
+          "id": "VFB_001041bq",
+          "name": "Mi1_R (JRC_OpticLobe:39964)",
+          "synapses": 25
+        },
+        {
+          "id": "VFB_00104jor",
+          "name": "Tm3_R (JRC_OpticLobe:94380)",
+          "synapses": 12
+        }
+      ],
+      "downstream": [
+        {
+          "id": "VFB_00103s4o",
+          "name": "HSE_R (JRC_OpticLobe:10016)",
+          "synapses": 13
+        }
+      ],
+      "connectivityScope": "Only verified edges among the six downloaded circuit examples; not an exhaustive partner list."
+    },
+    {
+      "id": "VFB_00104iha",
+      "name": "Tm2_R (JRC_OpticLobe:65363)",
+      "type": "Tm2",
+      "canonicalType": "[transmedullary neuron Tm2](FBbt_00003790)",
+      "dataset": "JRC_Optic-Lobe v1.0.1 (Nern2024)",
+      "template": "JRC2018Unisex",
+      "templateId": "VFB_00101567",
+      "swc": "/data/VFB_00104iha.swc",
+      "assetFilename": "VFB_00104iha.swc",
+      "sourceUrl": "https://www.virtualflybrain.org/data/VFB/i/0010/4iha/VFB_00101567/volume.swc",
+      "vfbUrl": "https://v2.virtualflybrain.org/org.geppetto.frontend/geppetto?id=VFB_00104iha&i=VFB_00101567,VFB_00104iha",
+      "license": "CC-BY 4.0",
+      "sourcePropertyText": "89% [capable of](RO_0002215): [acetylcholine secretion, neurotransmission](GO_0014055) ([FlyBase:FBrf0262545](http://flybase.org/reports/FBrf0262545)); [is part of](BFO_0000050): [male organism](FBbt_00007004)",
+      "neurotransmitter": {
+        "name": "acetylcholine",
+        "evidence": "VFB connectome neurotransmitter prediction",
+        "sourceText": "89% [capable of](RO_0002215): [acetylcholine secretion, neurotransmission](GO_0014055) ([FlyBase:FBrf0262545](http://flybase.org/reports/FBrf0262545)); [is part of](BFO_0000050): [male organism](FBbt_00007004)"
+      },
+      "comment": "status-Traced, status label-Roughly traced, Optic Lobe classification: type-Tm2",
+      "nodeCount": 421,
+      "bounds": {
+        "min": [
+          88.9204779615588,
+          82.96661308825894,
+          92.70656990800032
+        ],
+        "max": [
+          140.0609468200698,
+          152.41260229934284,
+          158.9901790978576
+        ]
+      },
+      "upstream": [],
+      "downstream": [
+        {
+          "id": "VFB_00104dxc",
+          "name": "T5a_R (JRC_OpticLobe:135502)",
+          "synapses": 21
+        }
+      ],
+      "connectivityScope": "Only verified edges among the six downloaded circuit examples; not an exhaustive partner list."
+    },
+    {
+      "id": "VFB_00104dxc",
+      "name": "T5a_R (JRC_OpticLobe:135502)",
+      "type": "T5a",
+      "canonicalType": "[T5a neuron](FBbt_00003737)",
+      "dataset": "JRC_Optic-Lobe v1.0.1 (Nern2024)",
+      "template": "JRC2018Unisex",
+      "templateId": "VFB_00101567",
+      "swc": "/data/VFB_00104dxc.swc",
+      "assetFilename": "VFB_00104dxc.swc",
+      "sourceUrl": "https://www.virtualflybrain.org/data/VFB/i/0010/4dxc/VFB_00101567/volume.swc",
+      "vfbUrl": "https://v2.virtualflybrain.org/org.geppetto.frontend/geppetto?id=VFB_00104dxc&i=VFB_00101567,VFB_00104dxc",
+      "license": "CC-BY 4.0",
+      "sourcePropertyText": "[is part of](BFO_0000050): [male organism](FBbt_00007004)",
+      "neurotransmitter": null,
+      "comment": "status-Traced, status label-Roughly traced, Optic Lobe classification: type-T5a",
+      "nodeCount": 286,
+      "bounds": {
+        "min": [
+          124.70736460742735,
+          146.13597361071376,
+          154.89815106127304
+        ],
+        "max": [
+          142.510871914509,
+          164.4908063348999,
+          168.29731930692347
+        ]
+      },
+      "upstream": [
+        {
+          "id": "VFB_00104iha",
+          "name": "Tm2_R (JRC_OpticLobe:65363)",
+          "synapses": 21
+        }
+      ],
+      "downstream": [
+        {
+          "id": "VFB_00103s4o",
+          "name": "HSE_R (JRC_OpticLobe:10016)",
+          "synapses": 21
+        }
+      ],
+      "connectivityScope": "Only verified edges among the six downloaded circuit examples; not an exhaustive partner list."
+    },
+    {
+      "id": "VFB_00103s4o",
+      "name": "HSE_R (JRC_OpticLobe:10016)",
+      "type": "HSE",
+      "canonicalType": "[equatorial giant horizontal cell HSE](FBbt_00003919)",
+      "dataset": "JRC_Optic-Lobe v1.0.1 (Nern2024)",
+      "template": "JRC2018Unisex",
+      "templateId": "VFB_00101567",
+      "swc": "/data/VFB_00103s4o.swc",
+      "assetFilename": "VFB_00103s4o.swc",
+      "sourceUrl": "https://www.virtualflybrain.org/data/VFB/i/0010/3s4o/VFB_00101567/volume.swc",
+      "vfbUrl": "https://v2.virtualflybrain.org/org.geppetto.frontend/geppetto?id=VFB_00103s4o&i=VFB_00101567,VFB_00103s4o",
+      "license": "CC-BY 4.0",
+      "sourcePropertyText": "[is part of](BFO_0000050): [male organism](FBbt_00007004)",
+      "neurotransmitter": null,
+      "comment": "status-Traced, status label-Roughly traced, Optic Lobe classification: type-HSE",
+      "nodeCount": 11071,
+      "bounds": {
+        "min": [
+          73.50401221569297,
+          137.16336420683373,
+          118.74485718983559
+        ],
+        "max": [
+          268.01460172499077,
+          223.05361289317827,
+          164.2533345638438
+        ]
+      },
+      "upstream": [
+        {
+          "id": "VFB_00104bfr",
+          "name": "T4a_R (JRC_OpticLobe:115402)",
+          "synapses": 13
+        },
+        {
+          "id": "VFB_00104dxc",
+          "name": "T5a_R (JRC_OpticLobe:135502)",
+          "synapses": 21
+        }
+      ],
+      "downstream": [],
+      "connectivityScope": "Only verified edges among the six downloaded circuit examples; not an exhaustive partner list."
+    }
+  ],
+  "regions": [
+    {
+      "id": "VFB_00102107",
+      "name": "ME on JRC2018Unisex adult brain",
+      "types": "[medulla](FBbt_00003748)",
+      "properties": "",
+      "comment": "",
+      "asset": "VFB_00102107.obj",
+      "assetFormat": "obj",
+      "assetUrl": "https://www.virtualflybrain.org/data/VFB/i/0010/2107/VFB_00101567/volume_man.obj",
+      "assetSha256": "b406268c598b9966f759b0bdfdddc7c4f4f77df2488b9f2eb5ac17f6861efb4c",
+      "templateId": "VFB_00101567",
+      "license": {
+        "0": {
+          "iri": "http://virtualflybrain.org/reports/VFBlicense_CC_BY_NC_SA_4_0",
+          "short_form": "VFBlicense_CC_BY_NC_SA_4_0",
+          "label": "CC-BY-NC-SA_4.0",
+          "icon": "http://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-sa.png",
+          "source": "JRC 2018 templates & ROIs",
+          "source_iri": "http://virtualflybrain.org/reports/JRC2018"
+        }
+      },
+      "vfbUrl": "https://v2.virtualflybrain.org/org.geppetto.frontend/geppetto?id=VFB_00102107&i=VFB_00101567,VFB_00102107",
+      "pointCount": 32294,
+      "bounds": {
+        "min": [
+          27.026571,
+          85.42232,
+          43.34819
+        ],
+        "max": [
+          600.4697,
+          272.85153,
+          157.25845
+        ]
+      },
+      "xrefs": [],
+      "obj": "C:\\Users\\Ynifar\\.codex\\attachments\\flystream-vfb-research\\VFB_00102107.obj"
+    },
+    {
+      "id": "VFB_00102109",
+      "name": "LO on JRC2018Unisex adult brain",
+      "types": "[lobula](FBbt_00003852)",
+      "properties": "",
+      "comment": "",
+      "asset": "VFB_00102109.obj",
+      "assetFormat": "obj",
+      "assetUrl": "https://www.virtualflybrain.org/data/VFB/i/0010/2109/VFB_00101567/volume_man.obj",
+      "assetSha256": "779c87491f3e5255967eab783dc52b40cd7f85f6c89021e6f7e21fa8103c68e9",
+      "templateId": "VFB_00101567",
+      "license": {
+        "0": {
+          "iri": "http://virtualflybrain.org/reports/VFBlicense_CC_BY_NC_SA_4_0",
+          "short_form": "VFBlicense_CC_BY_NC_SA_4_0",
+          "label": "CC-BY-NC-SA_4.0",
+          "icon": "http://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-sa.png",
+          "source": "JRC 2018 templates & ROIs",
+          "source_iri": "http://virtualflybrain.org/reports/JRC2018"
+        }
+      },
+      "vfbUrl": "https://v2.virtualflybrain.org/org.geppetto.frontend/geppetto?id=VFB_00102109&i=VFB_00101567,VFB_00102109",
+      "pointCount": 13740,
+      "bounds": {
+        "min": [
+          105.98457,
+          102.166145,
+          78.73829
+        ],
+        "max": [
+          521.50696,
+          233.26764,
+          165.12291
+        ]
+      },
+      "xrefs": [],
+      "obj": "C:\\Users\\Ynifar\\.codex\\attachments\\flystream-vfb-research\\VFB_00102109.obj"
+    },
+    {
+      "id": "VFB_00102110",
+      "name": "LOP on JRC2018Unisex adult brain",
+      "types": "[lobula plate](FBbt_00003885)",
+      "properties": "",
+      "comment": "",
+      "asset": "VFB_00102110.obj",
+      "assetFormat": "obj",
+      "assetUrl": "https://www.virtualflybrain.org/data/VFB/i/0010/2110/VFB_00101567/volume_man.obj",
+      "assetSha256": "d86bafd4d1089a00cdb8d78b692a43306335837128f1e4df8d1032998beadd62",
+      "templateId": "VFB_00101567",
+      "license": {
+        "0": {
+          "iri": "http://virtualflybrain.org/reports/VFBlicense_CC_BY_NC_SA_4_0",
+          "short_form": "VFBlicense_CC_BY_NC_SA_4_0",
+          "label": "CC-BY-NC-SA_4.0",
+          "icon": "http://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-sa.png",
+          "source": "JRC 2018 templates & ROIs",
+          "source_iri": "http://virtualflybrain.org/reports/JRC2018"
+        }
+      },
+      "vfbUrl": "https://v2.virtualflybrain.org/org.geppetto.frontend/geppetto?id=VFB_00102110&i=VFB_00101567,VFB_00102110",
+      "pointCount": 12462,
+      "bounds": {
+        "min": [
+          68.58436,
+          110.4637,
+          106.21674
+        ],
+        "max": [
+          558.90607,
+          247.85666,
+          165.12291
+        ]
+      },
+      "xrefs": [],
+      "obj": "C:\\Users\\Ynifar\\.codex\\attachments\\flystream-vfb-research\\VFB_00102110.obj"
+    }
+  ],
+  "verifiedEdges": [
+    {
+      "source": "VFB_00104bfr",
+      "target": "VFB_00103s4o",
+      "synapses": 13,
+      "evidence": "VFB NeuronNeuronConnectivityQuery; structural synapse count, not a physiological weight"
+    },
+    {
+      "source": "VFB_001041bq",
+      "target": "VFB_00104bfr",
+      "synapses": 25,
+      "evidence": "VFB NeuronNeuronConnectivityQuery; structural synapse count, not a physiological weight"
+    },
+    {
+      "source": "VFB_00104jor",
+      "target": "VFB_00104bfr",
+      "synapses": 12,
+      "evidence": "VFB NeuronNeuronConnectivityQuery; structural synapse count, not a physiological weight"
+    },
+    {
+      "source": "VFB_00104dxc",
+      "target": "VFB_00103s4o",
+      "synapses": 21,
+      "evidence": "VFB NeuronNeuronConnectivityQuery; structural synapse count, not a physiological weight"
+    },
+    {
+      "source": "VFB_00104iha",
+      "target": "VFB_00104dxc",
+      "synapses": 21,
+      "evidence": "VFB NeuronNeuronConnectivityQuery; structural synapse count, not a physiological weight"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Nern et al. (2025), Connectome-driven neural inventory of a complete visual system",
+      "url": "https://doi.org/10.1038/s41586-025-08746-0"
+    },
+    {
+      "title": "NeuroFly Session 1: Discovery",
+      "url": "https://workshop.virtualflybrain.org/sessions/session-1-discovery/"
+    },
+    {
+      "title": "NeuroFly Session 3: Visualisation",
+      "url": "https://workshop.virtualflybrain.org/sessions/session-3-visualisation/"
+    },
+    {
+      "title": "NeuroFly Session 4: Connectomics",
+      "url": "https://workshop.virtualflybrain.org/sessions/session-4-connectomics/"
+    },
+    {
+      "title": "NeuroFly Session 7: Putting It Together",
+      "url": "https://workshop.virtualflybrain.org/sessions/session-7-putting-it-together/"
+    },
+    {
+      "title": "NeuroFly current MCP setup",
+      "url": "https://workshop.virtualflybrain.org/setup/"
+    }
+  ],
+  "notes": [
+    "SWC/OBJ coordinates retained exactly as downloaded, same JRC2018Unisex space. Neuropil meshes are bilateral; six neurons are on the right visual pathway.",
+    "Counts describe anatomical synapses, not functional weights, strengths, rates or measured current activity.",
+    "Neuron tracing status in VFB metadata: Roughly traced.",
+    "No neuron activity recordings are included. Any stimulus-dependent color is simulated/inferred activity."
+  ]
+}
