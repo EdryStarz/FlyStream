@@ -2,6 +2,12 @@
 
 Streamer MVP checks: 7 October 2026. Earlier scientific checks below: 19 September 2026. VFB retrieval: 16 September 2026.
 
+## Clean-install CI — 8 October 2026
+
+The first published GitHub Actions run failed during the TypeScript production build on Ubuntu with Node 24: Node.js type declarations were unavailable (`NodeJS`, `process` and `node:*` imports). The package manifest does not explicitly declare `@types/node`. Earlier local build results below describe the existing development environment and do not establish a reproducible clean-install build. Dependency correction and a passing fresh CI run are still required.
+
+Evidence: [validation run 37677783235](https://github.com/EdryStarz/FlyStream/actions/runs/37677783235), source revision `e27fb27`. No hosted demo or verified external broadcast is available.
+
 ## M0XA streamer MVP — 7 October 2026
 
 - All **50 tests** pass: 23 brain/runtime tests, 18 server/platform tests, eight scientific tests and one late-TTS cancellation test. Production TypeScript/Vite build passes; the Three.js shared chunk still raises Vite's size advisory.
